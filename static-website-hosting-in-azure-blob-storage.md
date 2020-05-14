@@ -6,7 +6,7 @@ Given you have a react web app, you want to deploy it onto Azure. As it doesn't 
 
 Create a storage account with blob storage. Then enable static website on the storage account. It'll ask you what would be the name of the default file. I chose index.html, as it's the default html file of my react app. 
 
-![](.gitbook/assets/image%20%281%29.png)
+![Enable Static website](.gitbook/assets/image%20%281%29.png)
 
 Once enabled, it'll create $web directory / folder on the blob container.
 
