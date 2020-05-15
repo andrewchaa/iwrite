@@ -53,7 +53,7 @@ You can enable Azure CDN for your static website
 
 Go to Custom domains menu and set up your custom domain. You can use cname mapping. Also, provision SSL certificate, so that you wouldn't get security warning. 
 
-* Create a CNAME DNS record with your domain provider. The domain should point to xxxx.azureedige.net. After Azure CDN verifies the CNAME record that you create, traffic addressed to the source custom domain would be routed to the specified destination. 
+Create a CNAME DNS record with your domain provider. The domain should point to xxxx.azureedige.net. After Azure CDN verifies the CNAME record that you create, traffic addressed to the source custom domain would be routed to the specified destination. 
 
 ## Resources
 
