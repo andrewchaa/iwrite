@@ -14,7 +14,7 @@ Once enabled, it'll create $web directory / folder on the blob container.
 
 It shows the endpoint: https://contoso.web.core.windows.net 
 
-### Uploading content
+## Uploading content
 
 You can use any of these tools to upload content to the $web container.
 
@@ -27,9 +27,37 @@ You can use any of these tools to upload content to the $web container.
 
 I used Azure Storage Explorer for testing purpose, but would set up an Azure Pipeline to deploy the change automatically whenever a new commit gets pushed. 
 
- add the custom domain: servicesoverview.clearbank.co.uk to the azure cdn
+## Public access level of the web container
 
-* cdn it uses azure cdn: servicesoverview.azureedge.net set custom domain now
+The files at the primary static website endpoint are served through anonymous access requests, which means public read-only access to  all files. 
 
-  Origin Origin type: storage -&gt; Custom origin Origin hostname: servicesoverview.blob.core.windows.net -&gt; servicesoverview.z33.web.core.windows.net Origin host headser: -&gt; servicesoverview.z33.web.core.windows.net
+![](.gitbook/assets/image%20%282%29.png)
+
+I used Public access level: Blob, so that the primary static website endpoint would be [https://contosoblobaccount.z22.web.core.windows.net/index.html](https://contosoblobaccount.z22.web.core.windows.net/index.html).
+
+## Integrate a static website with Azure CDN
+
+You can enable Azure CDN for your static website
+
+* Go to your storage account overview
+* Under the Blob Service menu, select Azure CDN to open the Azure CDN page
+* Specify your static website endpoint in the Origin hostname field. 
+
+![](.gitbook/assets/image%20%284%29.png)
+
+* Update Origin fields like these. Otherwise, you would have the infamous XML error
+
+![](.gitbook/assets/image%20%285%29.png)
+
+## Map a custom domain
+
+Go to Custom domains menu and set up your custom domain. You can use cname mapping. Also, provision SSL certificate, so that you wouldn't get security warning. 
+
+* Create a CNAME DNS record with your domain provider. The domain should point to xxxx.azureedige.net. After Azure CDN verifies the CNAME record that you create, traffic addressed to the source custom domain would be routed to the specified destination. 
+
+## Resources
+
+* [https://docs.microsoft.com/en-us/azure/storage/blobs/static-website-content-delivery-network](https://docs.microsoft.com/en-us/azure/storage/blobs/static-website-content-delivery-network)
+* [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website)
+* [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal)
 
