@@ -11,29 +11,46 @@
 # azure-pipelines.yml
 
 trigger:
-- master
+  branches:
+    include:
+    - master
+    - feature/*
 
 pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: team-xxxx
-  WebAppName: <<your app name here>>  
+  azureSubscription: shared-development
   system.debug: False
 
 steps:
-
 - task: Npm@1
+  displayName: 'npm install'
   inputs:
     command: 'install'
     workingDir: 'src/'
-    verbose: False
+    verbose: true
 
 - task: Npm@1
+  displayName: 'npm run build'
   inputs:
     command: 'custom'
     workingDir: 'src/'
     customCommand: 'run build'
-    verbose: False
+    verbose: true
+
+- task: CopyFiles@2
+  displayName: 'Copy deployment content'
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/src/build'
+    contents: '**/*'
+    targetFolder: '$(Build.ArtifactStagingDirectory)'
+    cleanTargetFolder: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'www'
+    publishLocation: 'Container'
 ```
 
