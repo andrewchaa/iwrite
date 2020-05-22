@@ -8,4 +8,5 @@
 
 * [Build a React app with Azure Devops Pipeline](published/build-a-react-app-with-azure-devops-pipeline.md)
 * [Serverless CI/CD with AWS CodePipeline](published/serverless-ci-cd-with-aws-codepipeline.md)
+* [Service Fabric skeleton service](published/service-fabric-skeleton-service.md)
 
