@@ -14,9 +14,7 @@ Choose "Stateless Service" for worker service, as Stateful is the new evil in cl
 
 You launch it by pressing "CTRL + F5" on Visual Studio. That's my favourite way of deploying the new service fabric into the local dev machine cluster.
 
-## Customise it
-
-### Short name
+## Shorten the default lengthy service name
 
 You deploy it on to the cluster and notice that by default, the name of the service is pretty long. 
 
@@ -72,4 +70,6 @@ private static void Main()
             context => new Worker(context)).GetAwaiter().GetResult();
 
 ```
+
+
 
