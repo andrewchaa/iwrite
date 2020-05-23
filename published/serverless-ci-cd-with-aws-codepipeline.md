@@ -13,7 +13,7 @@
 * Provider: Github
 * Use "Connect to Github"
 * Change detection options: Github webhooks \(recommended\)
-* branch: refs/head
+* branch: refs/head/master
 
 ### Add build stage
 
