@@ -13,6 +13,7 @@
 * Provider: Github
 * Use "Connect to Github"
 * Change detection options: Github webhooks \(recommended\)
+* branch: refs/head
 
 ### Add build stage
 
@@ -33,10 +34,45 @@ If you haven't created a project, create one now
 * Environment type: Linux
 * Service role: New service role
 
+#### Role
+
+To support serverless to create stack, the role should have the below permission
+
+* AWSLambdaFullAccess
+* IAMFullAccess
+* AmazonAPIGatewayAdministrator
+* CloudFormationAdministrator
+
 #### Buildspec
 
 * Build specification: Use a buildspec file
 * Logs: CloudWatch
+
+```yaml
+version: 0.2
+env:
+  variables:
+    DOTNET_ROOT: /root/.dotnet
+phases:
+  install:
+    runtime-versions:
+      dotnet: 2.1
+  pre_build:
+    commands:
+      - npm install -g serverless
+      - cd src
+      - cd Navien.Installers.Lambdas
+      - dotnet clean
+      - dotnet restore
+  build:
+    commands:
+      - ./build.sh
+      - serverless deploy --stage cicd | tee deploy.out
+  post_build:
+    commands:
+      - . ./test.sh
+
+```
 
 ### Add deploy stage
 
