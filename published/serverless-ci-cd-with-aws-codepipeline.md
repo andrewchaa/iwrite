@@ -1,8 +1,8 @@
 # Serverless CI/CD with AWS CodePipeline
 
-## Create a new Pipeline
+I've set up a CI/CD Pipeline for my serverless project. This is my settings.
 
-### Choose pipeline settings
+### Create a new pipeline
 
 * name: navien-installer-infrastructure
 * Service role: New service role
@@ -14,6 +14,8 @@
 * Use "Connect to Github"
 * Change detection options: Github webhooks \(recommended\)
 * branch: refs/head/master
+
+You can specify tag, branch, or pull request. I simply put branch name, as I want this to run when it gets merged into master branch. For local development, I would run "sls deploy" manually
 
 ### Add build stage
 
@@ -36,7 +38,7 @@ If you haven't created a project, create one now
 
 #### Role
 
-To support serverless to create stack, the role should have the below permission
+Initially, I encountered an error because the role this pipeline uses doesn't have enough permission to create a stack. To enable serverless framework to create a new stack, I have the below permissions. 
 
 * AWSLambdaFullAccess
 * IAMFullAccess
@@ -45,8 +47,7 @@ To support serverless to create stack, the role should have the below permission
 
 #### Buildspec
 
-* Build specification: Use a buildspec file
-* Logs: CloudWatch
+Buildsec is a yaml file that speifies build steps. 
 
 ```yaml
 version: 0.2
@@ -68,15 +69,11 @@ phases:
     commands:
       - ./build.sh
       - serverless deploy --stage cicd | tee deploy.out
-  post_build:
-    commands:
-      - . ./test.sh
-
 ```
 
 ### Add deploy stage
 
-Skip
+I'v skipped this stage as "serverless deploy" will do the deployment.
 
 ### Review
 
