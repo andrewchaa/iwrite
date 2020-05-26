@@ -9,4 +9,6 @@
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Service Fabric skeleton service](drafts/service-fabric-skeleton-service.md)
+* [Deploy an Azure Service Fabric cluster across Availability Zones](drafts/deploy-an-azure-service-fabric-cluster-across-availability-zones.md)
+* [How I'm setting Windows developer machine](drafts/how-im-setting-windows-developer-machine.md)
 
