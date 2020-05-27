@@ -219,5 +219,3 @@ public class EventHostedService : IHostedService
 
 
 
-Logging: [https://docs.microsoft.com/en-us/azure/azure-monitor/app/ilogger](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ilogger)
-
