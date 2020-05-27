@@ -71,5 +71,42 @@ private static void Main()
 
 ```
 
+## Install packages
 
+Most of our apps uses Service Bus for messaging and Cosmos DB to store events.
+
+The typical list of the packages are like these
+
+```markup
+<PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="3.2.1" />
+<PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.14.0" />
+<PackageReference Include="Microsoft.Azure.Cosmos" Version="3.9.1" />
+<PackageReference Include="Microsoft.Azure.Management.ServiceBus" Version="2.1.0" />
+<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.4" />
+<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.4" />
+<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.4" />
+<PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.4" />
+<PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.4" />
+<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.4" />
+<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.4" />
+<PackageReference Include="Microsoft.ServiceFabric.Services" Version="3.4.658" />
+
+```
+
+## Add a generic host
+
+A "host" is an object that encapsulates an app's resources, such as:
+
+* Dependency injection \(DI\)
+* Logging
+* Configuration
+* IHostedService implementation
+
+\(from [https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-3.1](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-3.1)\)
+
+It is typicallyed configured, built, and run by code in the Program class. 
+
+
+
+Logging: [https://docs.microsoft.com/en-us/azure/azure-monitor/app/ilogger](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ilogger)
 
