@@ -42,6 +42,17 @@ I use Resharer 2.x / Intelli J shortcuts
 
 Download from [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
+```javascript
+# settings.json
+
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.insertSpaces": true
+}
+```
+
 ### ConEmu or Windows Terminal
 
 For reliable terminal window: [https://conemu.github.io/](https://conemu.github.io/)
@@ -74,5 +85,19 @@ Install choco: [https://chocolatey.org/install](https://chocolatey.org/install)
 
 Install [FiraCode](https://github.com/tonsky/FiraCode). It's free monospaced font with programming ligatures.
 
-### 
+### Git
+
+Install by choco
+
+```text
+choco install git.install
+```
+
+Then install Git Extensions for GUI: [http://gitextensions.github.io/](http://gitextensions.github.io/)
+
+### Service Fabric SDK
+
+As I develop services on Service Fabric at work, I need to install the SDK: [https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started)
+
+
 
