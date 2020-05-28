@@ -1,4 +1,4 @@
-# How I'm setting Windows developer machine
+# How I'm setting my Windows developer machine
 
 ## Installations
 
