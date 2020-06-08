@@ -99,5 +99,9 @@ Then install Git Extensions for GUI: [http://gitextensions.github.io/](http://gi
 
 As I develop services on Service Fabric at work, I need to install the SDK: [https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-get-started)
 
+### Postman
+
+Install postman: [https://www.postman.com/](https://www.postman.com/)
+
 
 
