@@ -109,5 +109,7 @@ Install postman: [https://www.postman.com/](https://www.postman.com/)
 choco install terraform
 ```
 
+### Azure CLI
 
+Install from [https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 
