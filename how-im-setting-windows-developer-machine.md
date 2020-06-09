@@ -103,5 +103,11 @@ As I develop services on Service Fabric at work, I need to install the SDK: [htt
 
 Install postman: [https://www.postman.com/](https://www.postman.com/)
 
+### Terraform
+
+```bash
+choco install terraform
+```
+
 
 
