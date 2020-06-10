@@ -9,6 +9,7 @@
 * [Logging on AWS Lambda with .NET Core](logging-on-aws-lambda-with-.net-core.md)
 * [Fix Port number for Service Fabric ASP.NET Core on the local development machine](fix-port-number-for-service-fabric-asp.net-core-on-the-local-development-machine.md)
 * [Calling the parent's function from a child component in React](calling-the-parents-function-from-a-child-component-in-react.md)
+* [Visual Studio sln content for Service Fabric service](visual-studio-sln-content-for-service-fabric-service.md)
 
 ## Drafts
 
