@@ -6,7 +6,7 @@ My name is Young Ho Chaa \(Andrew Chaa\). I'm originally from South Korea and ha
 
 ![This is me posing for a picture in a country pub](.gitbook/assets/image%20%289%29.png)
 
-## What do I write?
+## What do I write about?
 
 Mostly technical stuff. I write down what I learn while doing my job or working on side projects. I learn better by writing things down.
 
