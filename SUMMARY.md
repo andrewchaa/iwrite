@@ -14,6 +14,5 @@
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
-* [Deploy an Azure Service Fabric cluster across Availability Zones](drafts/deploy-an-azure-service-fabric-cluster-across-availability-zones.md)
 * [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
 
