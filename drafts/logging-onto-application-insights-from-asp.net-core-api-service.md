@@ -35,3 +35,37 @@ Set up the instrumentation key in your appsettings.json
 }
 ```
 
+For some reason, ApplicationInsightsTelemetry setting doesn't resepct the default LogLevel. You have to set it manually by configuring the logging
+
+```csharp
+return new WebHostBuilder()
+    .UseKestrel()
+    .ConfigureServices(
+        services => services
+            .AddSingleton<StatelessServiceContext>(serviceContext))
+    .UseContentRoot(Directory.GetCurrentDirectory())
+    .UseStartup<Startup>()
+    .UseServiceFabricIntegration(listener, ServiceFabricIntegrationOptions.None)
+    .UseUrls(url)
+    .ConfigureLogging(l =>
+    {
+        l.AddConsole();
+        l.AddFilter<ApplicationInsightsLoggerProvider>("", LogLevel.Information);
+    })
+    .Build();
+```
+
+Now, ILogger is plumbed into Application Insights' traces logging.
+
+```csharp
+public TransactionsController(ILogger<TransactionsController> logger)
+{
+    _logger = logger;
+}
+
+public async Task<IActionResult> Create([FromRoute]Guid transactionid, 
+    [FromBody]CreateTransactionRequest request)
+{
+    _logger.LogInformation($"Creating a transaction: {transactionid}");
+```
+
