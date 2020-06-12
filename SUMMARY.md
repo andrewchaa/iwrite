@@ -17,4 +17,5 @@
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
 * [Logging onto Application Insights from ASP.NET Core api service](drafts/logging-onto-application-insights-from-asp.net-core-api-service.md)
+* [Calling api endpoints with Refit](drafts/calling-api-endpoints-with-refit.md)
 
