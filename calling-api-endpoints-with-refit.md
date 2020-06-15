@@ -14,12 +14,45 @@ public interface IApi
 }
 ```
 
-You can expose your test client with Fixture in xUnit.
+You can expose your test client with Fixture in xUnit. To populate headers, you can use a custom HttpMessageHandler.
 
 ```csharp
+// TestClientFixture.cs
 public TestClientFixture()
 {
-    Api = RestService.For<IApi>("http://localhost:8200");
+    var configuration = new ConfigurationBuilder()
+        .SetBasePath(Directory.GetCurrentDirectory())
+        .AddJsonFile("appsettings.json")
+#if DEBUG
+        .AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true)
+#endif
+        .AddEnvironmentVariables().Build();
+    var hostUrl = new Uri(configuration["BaseUrl"]);
+    var subscriptionKey = configuration["SubscriptionKey"];
+    var headerClientHandler = new HeaderClientHandler(subscriptionKey);
+    LedgerApi = RestService.For<ILedgerApi>(new HttpClient(headerClientHandler)
+    {
+        BaseAddress = hostUrl
+    });
+}
+
+// HeaderClientHandler
+public class HeaderClientHandler : HttpClientHandler
+{
+    private readonly string _subscriptionKey;
+
+    public HeaderClientHandler(string subscriptionKey)
+    {
+        _subscriptionKey = subscriptionKey;
+    }
+
+    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, 
+        CancellationToken cancellationToken)
+    {
+        request.Headers.Add("SubscriptionKey", _subscriptionKey);
+
+        return await base.SendAsync(request, cancellationToken).ConfigureAwait(false);
+    }
 }
 ```
 
