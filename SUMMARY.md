@@ -18,4 +18,5 @@
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
+* [Service Fabric app health check](drafts/service-fabric-app-health-check.md)
 
