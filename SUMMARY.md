@@ -20,4 +20,5 @@
 * [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
 * [Service Fabric app health check](drafts/service-fabric-app-health-check.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
+* [Cosmos Emulator for local development and testing](drafts/cosmos-emulator-for-local-development-and-testing.md)
 
