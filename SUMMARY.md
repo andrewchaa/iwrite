@@ -13,6 +13,7 @@
 * [Calling an API with redux saga](calling-an-api-with-redux-saga.md)
 * [Calling api endpoints with Refit](calling-api-endpoints-with-refit.md)
 * [Logging onto Application Insights from ASP.NET Core api service](logging-onto-application-insights-from-asp.net-core-api-service.md)
+* [Cosmos Emulator for local development and testing](cosmos-emulator-for-local-development-and-testing.md)
 
 ## Drafts
 
@@ -20,5 +21,4 @@
 * [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
 * [Service Fabric app health check](drafts/service-fabric-app-health-check.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
-* [Cosmos Emulator for local development and testing](drafts/cosmos-emulator-for-local-development-and-testing.md)
 
