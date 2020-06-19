@@ -9,7 +9,7 @@
 * [Logging on AWS Lambda with .NET Core](logging-on-aws-lambda-with-.net-core.md)
 * [Fix Port number for Service Fabric ASP.NET Core on the local development machine](fix-port-number-for-service-fabric-asp.net-core-on-the-local-development-machine.md)
 * [Calling the parent's function from a child component in React](calling-the-parents-function-from-a-child-component-in-react.md)
-* [Visual Studio sln content for Service Fabric service](visual-studio-sln-content-for-service-fabric-service.md)
+* [Any CPU settings in Visual Studio sln content for Service Fabric service](visual-studio-sln-content-for-service-fabric-service.md)
 * [Calling an API with redux saga](calling-an-api-with-redux-saga.md)
 * [Calling api endpoints with Refit](calling-api-endpoints-with-refit.md)
 * [Logging onto Application Insights from ASP.NET Core api service](logging-onto-application-insights-from-asp.net-core-api-service.md)
@@ -21,4 +21,8 @@
 * [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
 * [Service Fabric app health check](drafts/service-fabric-app-health-check.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
+
+---
+
+* [Easy way to compare the values of the two complex objects](easy-way-to-compare-the-values-of-the-two-complex-objects.md)
 
