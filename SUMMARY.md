@@ -14,6 +14,7 @@
 * [Calling api endpoints with Refit](calling-api-endpoints-with-refit.md)
 * [Logging onto Application Insights from ASP.NET Core api service](logging-onto-application-insights-from-asp.net-core-api-service.md)
 * [Cosmos Emulator for local development and testing](cosmos-emulator-for-local-development-and-testing.md)
+* [Easy way to compare the values of the two complex objects](easy-way-to-compare-the-values-of-the-two-complex-objects.md)
 
 ## Drafts
 
@@ -21,8 +22,4 @@
 * [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
 * [Service Fabric app health check](drafts/service-fabric-app-health-check.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
-
----
-
-* [Easy way to compare the values of the two complex objects](easy-way-to-compare-the-values-of-the-two-complex-objects.md)
 
