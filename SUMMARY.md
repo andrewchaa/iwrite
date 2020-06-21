@@ -22,4 +22,5 @@
 * [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
 * [Service Fabric app health check](drafts/service-fabric-app-health-check.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
+* [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 
