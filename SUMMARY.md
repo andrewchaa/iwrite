@@ -16,11 +16,11 @@
 * [Cosmos Emulator for local development and testing](cosmos-emulator-for-local-development-and-testing.md)
 * [Easy way to compare the values of the two complex objects](easy-way-to-compare-the-values-of-the-two-complex-objects.md)
 * [Service Fabric app health check](service-fabric-app-health-check.md)
+* [Component testing in ASP.NET Core](component-testing-in-asp.net-core.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
-* [Component testing in ASP.NET Core](drafts/component-testing-in-asp.net-core.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 * [Retry with Polly](drafts/retry-with-polly.md)
