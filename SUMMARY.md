@@ -17,6 +17,7 @@
 * [Easy way to compare the values of the two complex objects](easy-way-to-compare-the-values-of-the-two-complex-objects.md)
 * [Service Fabric app health check](service-fabric-app-health-check.md)
 * [Component testing in ASP.NET Core](component-testing-in-asp.net-core.md)
+* [Using TimeSpan configuration values in .NET Core](using-timespan-configuration-values-in-.net-core.md)
 
 ## Drafts
 
@@ -24,5 +25,4 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 * [Retry with Polly](drafts/retry-with-polly.md)
-* [Using TimeSpan configuration values in .NET Core](drafts/using-timespan-configuration-values-in-.net-core.md)
 
