@@ -25,4 +25,5 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 * [Retry with Polly](drafts/retry-with-polly.md)
+* [Basic tips in using Mac](drafts/basic-tips-in-using-mac.md)
 
