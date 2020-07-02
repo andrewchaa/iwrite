@@ -1,4 +1,4 @@
-# Basic tips in using Mac
+# Handy apps for Mac
 
 * cmd + h to hide the current window. much better than \_ on the window
 * cmd + tab to switch to another window
