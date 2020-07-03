@@ -25,3 +25,52 @@ I've created a new one as I don't have any existing one.
 
 Now you have an active usage plan with an api key. The client can use this API key to access the API.
 
+## Create api keys by using Serverless framework
+
+You can specify a list of API keys to be used by your service Rest API by adding an apiKeys array property to the provider object in serverless.yml. You'll also need to explicitly specify which endpoints are private and require one of the api keys to be included in the request by adding a private boolean property to the http event object you want to set as private
+
+```yaml
+# serverless.yml
+
+provider:
+  name: aws
+  runtime: dotnetcore2.1
+
+  ...
+  apiKeys:
+    - name: <api key name>
+      value: <api key value>
+  usagePlan:
+    quota:
+      limit: 1000
+      offset: 2
+      period: MONTH
+    throttle:
+      burstLimit: 50
+      rateLimit: 100
+
+package:
+  individually: true
+
+functions:
+
+  ...
+  updateRegistrationWarranty:
+    handler: Lambdas::Functions.updateRegistrationWarranty::Run
+
+    package:
+      artifact: bin/release/netcoreapp2.1/deploy-package.zip
+
+    events:
+      - http:
+          path: registrations/{id}/warranty
+          method: put
+          reqeust:
+            parameters:
+              path:
+                id: true
+          cors: true
+          private: true
+
+```
+
