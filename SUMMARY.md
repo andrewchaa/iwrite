@@ -21,6 +21,7 @@
 * [Handy apps for Mac](basic-tips-in-using-mac.md)
 * [Protect an API endpoint with usage plan on AWS](protect-an-api-endpoint-with-usage-plan-on-aws.md)
 * [Send message to a Teams' channel](send-message-to-a-teams-channel.md)
+* [Azure Cosmos DB performance tips](azure-cosmos-db-performance-tips.md)
 
 ## Drafts
 
@@ -28,6 +29,5 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 * [Retry with Polly](drafts/retry-with-polly.md)
-* [Azure Cosmos DB performance tips](drafts/azure-cosmos-db-performance-tips.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](drafts/list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
 
