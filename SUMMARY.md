@@ -23,6 +23,7 @@
 * [Send message to a Teams' channel](send-message-to-a-teams-channel.md)
 * [Azure Cosmos DB performance tips](azure-cosmos-db-performance-tips.md)
 * [Mocking Cosmos Container method for unit testing](mocking-cosmos-container-method-for-unit-testing.md)
+* [Global error handling in ASP.NET Core web APIs](global-error-handling-in-asp.net-core-web-apis.md)
 
 ## Drafts
 
