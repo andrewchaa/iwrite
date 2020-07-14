@@ -31,4 +31,5 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](drafts/list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
+* [Setting Windows Terminal Starting Directory](drafts/setting-windows-terminal-starting-directory.md)
 
