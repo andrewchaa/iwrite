@@ -1,7 +1,3 @@
----
-description: 'Test, ServiceBus'
----
-
 # Sending a ServiceBus message in an integrated test
 
 API requests and ServiceBus messages are two typical external inputs to a system. So, integration tests often send api requests and ServiceBus messages to send the input to the testing system and check the oupput. 
