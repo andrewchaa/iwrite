@@ -25,6 +25,7 @@
 * [Mocking Cosmos Container method for unit testing](mocking-cosmos-container-method-for-unit-testing.md)
 * [Global error handling in ASP.NET Core web APIs](global-error-handling-in-asp.net-core-web-apis.md)
 * [Setting Windows Terminal Starting Directory](setting-windows-terminal-starting-directory.md)
+* [Sending a ServiceBus message in an integrated test](sending-a-servicebus-message-in-an-integrated-test.md)
 
 ## Drafts
 
@@ -32,5 +33,4 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](drafts/list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
-* [Sending a ServiceBus message in an integrated test](drafts/sending-a-servicebus-message-in-an-integrated-test.md)
 
