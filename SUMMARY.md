@@ -26,6 +26,7 @@
 * [Global error handling in ASP.NET Core web APIs](global-error-handling-in-asp.net-core-web-apis.md)
 * [Setting Windows Terminal Starting Directory](setting-windows-terminal-starting-directory.md)
 * [Sending a ServiceBus message in an integrated test](sending-a-servicebus-message-in-an-integrated-test.md)
+* [Serialize and deserialize enum as string with System.Text.Json](serialize-and-deserialize-enum-as-string-with-system.text.json.md)
 
 ## Drafts
 
@@ -33,5 +34,4 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](drafts/list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
-* [Serialize and deserialize enum as string with System.Text.Json](drafts/serialize-and-deserialize-enum-as-string-with-system.text.json.md)
 
