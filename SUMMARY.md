@@ -27,6 +27,7 @@
 * [Setting Windows Terminal Starting Directory](setting-windows-terminal-starting-directory.md)
 * [Sending a ServiceBus message in an integrated test](sending-a-servicebus-message-in-an-integrated-test.md)
 * [Serialize and deserialize enum as string with System.Text.Json](serialize-and-deserialize-enum-as-string-with-system.text.json.md)
+* [Serverless Framework Deployment failing after deleting API Gateway on AWS](serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws.md)
 
 ## Drafts
 
@@ -34,5 +35,4 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Generating a new blog post with a markdown file](drafts/generating-a-new-blog-post-with-a-markdown-file.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](drafts/list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
-* [Serverless Framework Deployment failing after deleting API Gateway on AWS](drafts/serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws.md)
 
