@@ -36,3 +36,7 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](drafts/list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
 
+---
+
+* [Fail the deserializatioin of JSON string if any expected properties don't exist](fail-the-deserializatioin-of-json-string-if-any-expected-properties-dont-exist.md)
+
