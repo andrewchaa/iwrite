@@ -29,14 +29,11 @@
 * [Serialize and deserialize enum as string with System.Text.Json](serialize-and-deserialize-enum-as-string-with-system.text.json.md)
 * [Serverless Framework Deployment failing after deleting API Gateway on AWS](serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws.md)
 * [Generating a new blog post with a markdown file](generating-a-new-blog-post-with-a-markdown-file.md)
+* [Fail the deserializatioin of JSON string if any expected properties don't exist](fail-the-deserializatioin-of-json-string-if-any-expected-properties-dont-exist.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](drafts/list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
-
----
-
-* [Fail the deserializatioin of JSON string if any expected properties don't exist](fail-the-deserializatioin-of-json-string-if-any-expected-properties-dont-exist.md)
 
