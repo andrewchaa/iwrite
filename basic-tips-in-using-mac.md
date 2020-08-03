@@ -8,4 +8,5 @@
 * [itsycal](https://www.mowglii.com/itsycal/) to show calendar
 * [Amphetamine](https://apps.apple.com/gb/app/amphetamine/id937984704?mt=12) to keep the screen open
 * [Helium](https://apps.apple.com/gb/app/helium/id1054607607?mt=12) for floating browser
+* [Lightshot](https://app.prntscr.com/en/index.html) to capture screenshot
 
