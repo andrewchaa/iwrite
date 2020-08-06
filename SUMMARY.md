@@ -32,6 +32,7 @@
 * [Fail the deserializatioin of JSON string if any expected properties don't exist](fail-the-deserializatioin-of-json-string-if-any-expected-properties-dont-exist.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
 * [Read settings json file from the parent directory of "bin" in Azure Function app](read-settings-json-file-from-the-parent-directory-of-bin-in-azure-function-app.md)
+* [QueryString in the Stylesheet's href](querystring-in-the-stylesheets-href.md)
 
 ## Drafts
 
