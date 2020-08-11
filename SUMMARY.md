@@ -33,6 +33,7 @@
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
 * [Read settings json file from the parent directory of "bin" in Azure Function app](read-settings-json-file-from-the-parent-directory-of-bin-in-azure-function-app.md)
 * [QueryString in the Stylesheet's href](querystring-in-the-stylesheets-href.md)
+* [Access HttpContext inside a service](access-httpcontext-inside-a-service.md)
 
 ## Drafts
 
