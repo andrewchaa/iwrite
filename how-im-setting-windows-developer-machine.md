@@ -59,6 +59,11 @@ For reliable terminal window: [https://conemu.github.io/](https://conemu.github.
 
 In case of Windows Terminal, you can get it from Microsoft Store: [https://github.com/Microsoft/Terminal](https://github.com/Microsoft/Terminal)
 
+### SQL Server and Management Studio
+
+* SQL Server Engine: [https://www.microsoft.com/en-gb/sql-server/sql-server-downloads](https://www.microsoft.com/en-gb/sql-server/sql-server-downloads)
+* Management Studio: [https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15)
+
 ## Windows
 
 ### Mouse
