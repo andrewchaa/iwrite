@@ -34,10 +34,10 @@
 * [Read settings json file from the parent directory of "bin" in Azure Function app](read-settings-json-file-from-the-parent-directory-of-bin-in-azure-function-app.md)
 * [QueryString in the Stylesheet's href](querystring-in-the-stylesheets-href.md)
 * [Access HttpContext inside a service](access-httpcontext-inside-a-service.md)
+* [Killing a Process in Windows 10](killing-a-process-in-windows-10.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
-* [Killing a Process in Windows 10](drafts/killing-a-process-in-windows-10.md)
 
