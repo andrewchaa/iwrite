@@ -35,6 +35,7 @@
 * [QueryString in the Stylesheet's href](querystring-in-the-stylesheets-href.md)
 * [Access HttpContext inside a service](access-httpcontext-inside-a-service.md)
 * [Killing a Process in Windows 10](killing-a-process-in-windows-10.md)
+* [Windows 10 Tips and Tricks](windows-10-tips-and-tricks.md)
 
 ## Drafts
 
