@@ -13,8 +13,8 @@
 * [Calling an API with redux saga](calling-an-api-with-redux-saga.md)
 * [Calling api endpoints with Refit](calling-api-endpoints-with-refit.md)
 * [Logging onto Application Insights from ASP.NET Core api service](logging-onto-application-insights-from-asp.net-core-api-service.md)
-* [Cosmos Emulator for local development and testing](cosmos-emulator-for-local-development-and-testing.md)
-* [Easy way to compare the values of the two complex objects](easy-way-to-compare-the-values-of-the-two-complex-objects.md)
+* [Cosmos Emulator for local development and testing](cosmos-emulator-for-local-development-and-testing/README.md)
+  * [Easy way to compare the values of the two complex objects](cosmos-emulator-for-local-development-and-testing/easy-way-to-compare-the-values-of-the-two-complex-objects.md)
 * [Service Fabric app health check](service-fabric-app-health-check.md)
 * [Component testing in ASP.NET Core](component-testing-in-asp.net-core.md)
 * [Using TimeSpan configuration values in .NET Core](using-timespan-configuration-values-in-.net-core.md)
@@ -36,6 +36,7 @@
 * [Access HttpContext inside a service](access-httpcontext-inside-a-service.md)
 * [Killing a Process in Windows 10](killing-a-process-in-windows-10.md)
 * [Windows 10 Tips and Tricks](windows-10-tips-and-tricks.md)
+* [React Native TextInput](react-native-textinput.md)
 
 ## Drafts
 
