@@ -38,13 +38,10 @@
 * [Windows 10 Tips and Tricks](windows-10-tips-and-tricks.md)
 * [React Native TextInput](react-native-textinput.md)
 * [Windows Explorer Keyboard Shortcuts](windows-explorer-keyboard-shortcuts.md)
+* [ASP.NET MVC Custom Action Filters](asp.net-mvc-custom-action-filters.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
-
----
-
-* [ASP.NET MVC Custom Action Filters](asp.net-mvc-custom-action-filters.md)
 
