@@ -44,3 +44,7 @@
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 
+---
+
+* [ASP.NET MVC Custom Action Filters](asp.net-mvc-custom-action-filters.md)
+
