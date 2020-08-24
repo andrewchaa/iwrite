@@ -6,4 +6,5 @@ One of the key ideas in [Progmatic Programmer](https://pragprog.com/) is achievi
 | :--- | :--- |
 | Go Back | Alt  + Left |
 | Go Forward | Alt + Right |
+| Select the Address Bar | Ctrl + L |
 
