@@ -39,13 +39,10 @@
 * [React Native TextInput](react-native-textinput.md)
 * [Windows Explorer Keyboard Shortcuts](windows-explorer-keyboard-shortcuts.md)
 * [ASP.NET MVC Custom Action Filters](asp.net-mvc-custom-action-filters.md)
+* [Creting a test Subscription to Azure Service Bus Topic](creting-a-test-subscription-to-azure-service-bus-topic.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
-
----
-
-* [Creting a test Subscription to Azure Service Bus Topic](creting-a-test-subscription-to-azure-service-bus-topic.md)
 
