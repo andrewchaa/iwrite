@@ -12,5 +12,8 @@ git pull
 
 # fetch the latest commits
 git fetch
+
+# delete the branch forcefully
+git branch -D feature/tools 
 ```
 
