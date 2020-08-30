@@ -1,7 +1,5 @@
 # Rider keyboard shortcuts
 
-
-
 | Command | Shortcut |
 | :--- | :--- |
 | Go to the previous place | ⌘\[ |
