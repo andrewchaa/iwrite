@@ -42,6 +42,7 @@
 * [Creting a test Subscription to Azure Service Bus Topic](creting-a-test-subscription-to-azure-service-bus-topic.md)
 * [Rider keyboard shortcuts](rider-keyboard-shortcuts.md)
 * [My favourite Git commands](my-favourite-git-commands.md)
+* [Adding a custom endpoint to AWS Amplify API](adding-a-custom-endpoint-to-aws-amplify-api.md)
 
 ## Drafts
 
