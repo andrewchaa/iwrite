@@ -39,7 +39,7 @@
 * [React Native TextInput](react-native-textinput.md)
 * [Windows Explorer Keyboard Shortcuts](windows-explorer-keyboard-shortcuts.md)
 * [ASP.NET MVC Custom Action Filters](asp.net-mvc-custom-action-filters.md)
-* [Creting a test Subscription to Azure Service Bus Topic](creting-a-test-subscription-to-azure-service-bus-topic.md)
+* [Creating a test Subscription to Azure Service Bus Topic](creting-a-test-subscription-to-azure-service-bus-topic.md)
 * [Rider keyboard shortcuts](rider-keyboard-shortcuts.md)
 * [My favourite Git commands](my-favourite-git-commands.md)
 * [Adding a custom endpoint to AWS Amplify API](adding-a-custom-endpoint-to-aws-amplify-api.md)

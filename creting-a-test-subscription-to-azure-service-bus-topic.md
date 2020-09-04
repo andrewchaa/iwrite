@@ -1,4 +1,4 @@
-# Creting a test Subscription to Azure Service Bus Topic
+# Creating a test Subscription to Azure Service Bus Topic
 
 You run Integration tests for your service. In my case, I have a local Cosmos DB emulator and local SQL Server instance. So the Integrationt tests run by calling APIs on the local host, storing the data into a local Cosmos DB. However, the messaging is tricky. It still sends messages to the Service Bus on the Test environment. The problem is, then, there's another instance running on the Test environment. Two instances compete for the same message. When the message is successfully processed, it's not clear which instance processed the message. The instance on the Test environment will affect the test result of the Integratino tests. 
 
