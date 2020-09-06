@@ -13,7 +13,17 @@ git pull
 # fetch the latest commits
 git fetch
 
-# delete the branch forcefully
+# delete the local branch forcefully
 git branch -D feature/tools 
+
+# delete the remote branch
+git push origin --delete feature/lambda
+
+# sometimes you get this error
+error: unable to push to unqualified destination: remoteBranchName The destination refspec neither matches an existing ref
+
+# then sync your branch list
+git fetch -p
+
 ```
 
