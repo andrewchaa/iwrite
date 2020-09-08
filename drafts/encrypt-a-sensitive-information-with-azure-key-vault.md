@@ -133,5 +133,69 @@ output "web_keyvault_url" {
 }
 ```
 
+## Encrypt and decrypt your token
+
+Use symmetric key if you need to encrypt the information and also to decrypt it. In this case, you need to store the encrypting key in Azure Key Vault secret. For asymmetric encryption, you can use Azure Key Vault key.
+
+I'm using [Aes](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.aes?view=netcore-3.1) from [Cryptographic servieces](https://docs.microsoft.com/en-us/dotnet/standard/security/cryptographic-services) .NET provides. 
+
+```csharp
+// sample code. In real situation, the Key and IV will come from Azure Key Vault secrets
+public class EncryptionService
+{
+    readonly byte[] _key = { 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16 };
+    readonly byte[] _iv = { 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16 };
+
+    public string Encrypt(string token)
+    {
+        using (var aes = Aes.Create())
+        {
+            aes.Key = _key;
+            aes.IV = _iv;
+
+            using (var memoryStream = new MemoryStream())
+            {
+                using (var cryptoStream = new CryptoStream(memoryStream,
+                    aes.CreateEncryptor(aes.Key, aes.IV),
+                    CryptoStreamMode.Write))
+                {
+                    using (var streamWriter = new StreamWriter(cryptoStream))
+                    {
+                        streamWriter.Write(token);
+                    }
+
+                    return Convert.ToBase64String(memoryStream.ToArray());
+                }
+            }
+        }
+    }
+
+    public string Decrypt(string encryptedToken)
+    {
+        var buffer = Convert.FromBase64String(encryptedToken);
+
+        using (var aes = Aes.Create())
+        {
+            aes.Key = _key;
+            aes.IV = _iv;
+
+            using (var memoryStream = new MemoryStream(buffer))
+            {
+                using (var cryptoStream = new CryptoStream(memoryStream,
+                    aes.CreateDecryptor(aes.Key, aes.IV),
+                    CryptoStreamMode.Read))
+                {
+                    using (var streamReader = new StreamReader(cryptoStream))
+                    {
+                        return streamReader.ReadToEnd();
+                    }
+                }
+            }
+        }
+    }
+}
+
+```
+
 
 
