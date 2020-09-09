@@ -43,12 +43,13 @@
 * [Rider keyboard shortcuts](rider-keyboard-shortcuts.md)
 * [My favourite Git commands](my-favourite-git-commands.md)
 * [Adding a custom endpoint to AWS Amplify API](adding-a-custom-endpoint-to-aws-amplify-api.md)
+* [VS Code Keyboard Shortcuts](vs-code-keyboard-shortcuts.md)
 
 ## Drafts
 
+* [Provision Azure Key Vault with Terraform](drafts/provision-azure-key-vault-with-terraform.md)
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Configuration for Azure Function](drafts/configuration-for-azure-function.md)
-* [Provision Azure Key Vault with Terraform](drafts/provision-azure-key-vault-with-terraform.md)
 * [Encrypt a sensitive information with Azure Key Vault](drafts/encrypt-a-sensitive-information-with-azure-key-vault.md)
 
