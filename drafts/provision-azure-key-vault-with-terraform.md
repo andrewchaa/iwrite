@@ -25,51 +25,24 @@ resource "azurerm_key_vault_access_policy" "deployment" {
 
   key_permissions = [
     "create",
-    "decrypt",
-    "delete",
-    "encrypt",
-    "get",
-    "import",
-    "list",
-    "purge",
-    "recover",
-    "restore",
-    "sign",
-    "unwrapKey",
-    "update",
-    "verify",
-    "wrapKey",
+    ...
   ]
 
   certificate_permissions = [
     "get",
-    "list",
-    "update",
-    "create",
-    "import",
-    "delete",
-    "managecontacts",
-    "manageissuers",
-    "getissuers",
-    "listissuers",
-    "setissuers",
-    "deleteissuers",
-    "backup",
-    "purge",
-    "recover",
-    "restore",
+    ...
   ]
 
   secret_permissions = [
     "backup",
-    "delete",
-    "get",
-    "list",
-    "purge",
-    "recover",
-    "restore",
-    "set",
+    ...
   ]
+  
+  storage_permissions = [
+    "backup",
+    ...
+  ]  
+
 }
 
 resource "azurerm_key_vault_access_policy" "service_principal" {
@@ -178,4 +151,37 @@ resource "random_password" "tokenapp" {
 ```
 
 `random_password` is a terraform resource that generates a random password
+
+### Provision secrets
+
+Finally, let's provision key and iv in the secret.
+
+```bash
+resource "random_password" "key" {
+  length           = 16
+  special          = true
+  override_special = "._-"
+}
+
+resource "random_password" "iv" {
+  length           = 16
+  special          = true
+  override_special = "._-"
+}
+
+resource "azurerm_key_vault_secret" "key" {
+  name         = "encryption-key"
+  value        = random_password.key.result
+  key_vault_id = azurerm_key_vault.key-vault.id
+  depends_on = [azurerm_key_vault_access_policy.deployment]  
+}
+
+resource "azurerm_key_vault_secret" "iv" {
+  name         = "encryption-iv"
+  value        = random_password.iv.result
+  key_vault_id = azurerm_key_vault.key-vault.id
+
+  depends_on = [azurerm_key_vault_access_policy.deployment]
+}
+```
 
