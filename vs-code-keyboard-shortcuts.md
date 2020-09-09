@@ -5,7 +5,7 @@
 | alt + shft + mouse | column select |
 | ctrl + \` | show terminal window |
 | F12 | go to the definition |
-| shft + alt + down arrow | duplicate the line |
+| shft + alt +  **↓** | duplicate the line |
 
 
 
