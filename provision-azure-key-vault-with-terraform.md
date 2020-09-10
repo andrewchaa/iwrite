@@ -96,16 +96,8 @@ resource "azurerm_key_vault_access_policy" "service_principal" {
   ]
 }
 
-output "keyvault_name" {
-  value = azurerm_key_vault.key-vault.name
-}
-
 output "keyvault_uri" {
   value = azurerm_key_vault.key-vault.vault_uri
-}
-
-output "keyvault_resource_group" {
-  value = azurerm_resource_group.token.name
 }
 
 output "keyvault_tenant_id" {
