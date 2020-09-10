@@ -108,6 +108,10 @@ output "keyvault_resource_group" {
   value = azurerm_resource_group.token.name
 }
 
+output "keyvault_tenant_id" {
+  value = azurerm_key_vault.key-vault.tenant_id
+}
+
 output "tokenapp_client_id" {
   value = azuread_application.tokenapp.application_id
 }
