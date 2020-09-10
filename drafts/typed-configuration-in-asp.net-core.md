@@ -12,5 +12,15 @@ public class KeyVaultOptions
 
 ```
 
+Then bind the DTO class to the config section.
 
+```csharp
+private static IServiceCollection AddConfigurations(this IServiceCollection services,
+    IConfiguration configuration)
+{
+    services.Configure<KeyVaultOptions>(configuration.GetSection("KeyVault"));
+    return services;
+}
+
+```
 
