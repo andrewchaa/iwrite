@@ -45,6 +45,7 @@
 * [Adding a custom endpoint to AWS Amplify API](adding-a-custom-endpoint-to-aws-amplify-api.md)
 * [VS Code Keyboard Shortcuts](vs-code-keyboard-shortcuts.md)
 * [Provision Azure Key Vault with Terraform](provision-azure-key-vault-with-terraform.md)
+* [Typed Configuration in ASP.NET Core](typed-configuration-in-asp.net-core.md)
 
 ## Drafts
 
@@ -52,5 +53,4 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Configuration for Azure Function](drafts/configuration-for-azure-function.md)
 * [Encrypt a sensitive information with Azure Key Vault](drafts/encrypt-a-sensitive-information-with-azure-key-vault.md)
-* [Typed Configuration in ASP.NET Core](drafts/typed-configuration-in-asp.net-core.md)
 
