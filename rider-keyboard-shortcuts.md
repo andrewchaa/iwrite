@@ -4,6 +4,7 @@
 | :--- | :--- |
 | Go to the previous place | ⌘\[ |
 | Go to the next place | ⌘\] |
+| Run all unit tests | ⇧⌘↵ |
 | Select word and extend the selection | ⌥↑ |
 | Shrink Selection | ⌥↓ |
 | Show Build | ⌘0 |
