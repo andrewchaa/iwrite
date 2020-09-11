@@ -1,5 +1,7 @@
 # Rider keyboard shortcuts
 
+The ultimate cheatshee is here. [https://www.jetbrains.com/help/rider/Keymaps\_Comparison\_Mac.html\#context](https://www.jetbrains.com/help/rider/Keymaps_Comparison_Mac.html#context)
+
 | Command | Shortcut |
 | :--- | :--- |
 | Add selection to the next occurrence | ⌥+⇧+. |
