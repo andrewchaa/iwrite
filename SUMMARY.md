@@ -47,6 +47,7 @@
 * [Provision Azure Key Vault with Terraform](provision-azure-key-vault-with-terraform.md)
 * [Typed Configuration in ASP.NET Core](typed-configuration-in-asp.net-core.md)
 * [Provision DynamoDb with serverless.yml](provision-dynamodb-with-serverless.yml.md)
+* [Encryption and Hashing](encryption-and-hashing.md)
 
 ## Drafts
 
@@ -54,5 +55,4 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Configuration for Azure Function](drafts/configuration-for-azure-function.md)
 * [Encrypt a sensitive information with Azure Key Vault](drafts/encrypt-a-sensitive-information-with-azure-key-vault.md)
-* [Encryption and Hashing](drafts/encryption-and-hashing.md)
 
