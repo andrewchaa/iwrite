@@ -2,7 +2,7 @@
 
 Honestly, I have been confused with these two concepts. I think it was becasue these words were used in a similar context, often together. 
 
-## Hasing
+## Hashing
 
 "Hash function is any function that can be used to map data of arbitrary size to fixed-size values." \([Wikipedia](https://en.wikipedia.org/wiki/Hash_function)\)
 
