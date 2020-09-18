@@ -10,5 +10,5 @@ In my case, I store API Key hash in the database and verify the API Key by hasin
 
 ## Encryption
 
-In cryptography, a cipher is an algorithm for performing encryption or decryption. To do encryption and decryption, I used Symmetric key and AES algorithm. You need a key and a new IV to encrypt or decrypt the value. 
+In cryptography, a [cipher ](https://en.wikipedia.org/wiki/Cipher)is an algorithm for performing encryption or decryption. To do encryption and decryption, I used Symmetric key and AES algorithm. You need a key and a new IV to encrypt or decrypt the value. 
 
