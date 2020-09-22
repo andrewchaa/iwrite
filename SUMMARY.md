@@ -48,6 +48,7 @@
 * [Typed Configuration in ASP.NET Core](typed-configuration-in-asp.net-core.md)
 * [Provision DynamoDb with serverless.yml](provision-dynamodb-with-serverless.yml.md)
 * [Encryption and Hashing](encryption-and-hashing.md)
+* [Managed Identity @ Azure](managed-identity-azure.md)
 
 ## Drafts
 
