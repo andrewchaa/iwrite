@@ -49,6 +49,7 @@
 * [Provision DynamoDb with serverless.yml](provision-dynamodb-with-serverless.yml.md)
 * [Encryption and Hashing](encryption-and-hashing.md)
 * [Managed Identity @ Azure](managed-identity-azure.md)
+* [Provision S3 Bucket with serverless.yml](provision-s3-bucket-with-serverless.yml.md)
 
 ## Drafts
 
@@ -56,5 +57,4 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Configuration for Azure Function](drafts/configuration-for-azure-function.md)
 * [Encrypt a sensitive information with Azure Key Vault](drafts/encrypt-a-sensitive-information-with-azure-key-vault.md)
-* [Provision S3 Bucket with serverless.yml](drafts/provision-s3-bucket-with-serverless.yml.md)
 
