@@ -50,6 +50,7 @@
 * [Encryption and Hashing](encryption-and-hashing.md)
 * [Managed Identity @ Azure](managed-identity-azure.md)
 * [Provision S3 Bucket with serverless.yml](provision-s3-bucket-with-serverless.yml.md)
+* [Provision Azure Storage with Terraform](provision-azure-storage-with-terraform.md)
 
 ## Drafts
 
