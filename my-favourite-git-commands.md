@@ -25,5 +25,8 @@ error: unable to push to unqualified destination: remoteBranchName The destinati
 # then sync your branch list
 git fetch -p
 
+# delete files from commit
+git rm --cached ./lock.json
+
 ```
 
