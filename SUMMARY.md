@@ -53,6 +53,7 @@
 * [Provision Azure Storage with Terraform](provision-azure-storage-with-terraform.md)
 * [Encrypt a sensitive information with Azure Key Vault](encrypt-a-sensitive-information-with-azure-key-vault.md)
 * [Prettify JSON with C\#](prettify-json-with-c.md)
+* [Azure Blob storage: hot, cool, and archive](azure-blob-storage-hot-cool-and-archive.md)
 
 ## Drafts
 
