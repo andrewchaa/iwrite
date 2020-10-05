@@ -52,10 +52,10 @@
 * [Provision S3 Bucket with serverless.yml](provision-s3-bucket-with-serverless.yml.md)
 * [Provision Azure Storage with Terraform](provision-azure-storage-with-terraform.md)
 * [Encrypt a sensitive information with Azure Key Vault](encrypt-a-sensitive-information-with-azure-key-vault.md)
+* [Prettify JSON with C\#](prettify-json-with-c.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
-* [Prettify JSON with C\#](drafts/prettify-json-with-c.md)
 
