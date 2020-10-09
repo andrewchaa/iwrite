@@ -1,4 +1,4 @@
-# Azure Blob storage: hot, cool, and archive
+# Azure Blob storage in 3 different tiers
 
 Azure storage offeres different access tiers, which allow you to store object data in the most cost-effective manner. 
 
