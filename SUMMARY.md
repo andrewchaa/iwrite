@@ -54,6 +54,7 @@
 * [Encrypt a sensitive information with Azure Key Vault](encrypt-a-sensitive-information-with-azure-key-vault.md)
 * [Prettify JSON with C\#](prettify-json-with-c.md)
 * [Azure Blob storage in 3 different tiers](azure-blob-storage-hot-cool-and-archive.md)
+* [Terraform Azure Function App](terraform-azure-function-app.md)
 
 ## Drafts
 
