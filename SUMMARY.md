@@ -56,11 +56,11 @@
 * [Azure Blob storage in 3 different tiers](azure-blob-storage-hot-cool-and-archive.md)
 * [Terraform Azure Function App](terraform-azure-function-app.md)
 * [iPhone Simulator shortcuts](iphone-simulator-shortcuts.md)
+* [Documenting Domain Events automatically](documenting-domain-events-automatically.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Application Insight on Service Fabric Worker Process](drafts/application-insight-on-service-fabric-worker-process.md)
-* [Documenting Domain Events automatically](drafts/documenting-domain-events-automatically.md)
 
