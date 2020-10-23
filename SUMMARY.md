@@ -57,11 +57,11 @@
 * [Terraform Azure Function App](terraform-azure-function-app.md)
 * [iPhone Simulator shortcuts](iphone-simulator-shortcuts.md)
 * [Documenting Domain Events automatically](documenting-domain-events-automatically.md)
+* [.NET Core Service Registrations](.net-core-service-registrations.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Application Insight on Service Fabric Worker Process](drafts/application-insight-on-service-fabric-worker-process.md)
-* [.NET Core Service Registrations](drafts/.net-core-service-registrations.md)
 
