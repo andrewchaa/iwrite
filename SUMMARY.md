@@ -58,6 +58,7 @@
 * [iPhone Simulator shortcuts](iphone-simulator-shortcuts.md)
 * [Documenting Domain Events automatically](documenting-domain-events-automatically.md)
 * [.NET Core Service Registrations](.net-core-service-registrations.md)
+* [Calling Azure DevOps APIs](calling-azure-devops-apis.md)
 
 ## Drafts
 
