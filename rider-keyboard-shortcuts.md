@@ -4,7 +4,7 @@ The ultimate cheatshee is here. [https://www.jetbrains.com/help/rider/Keymaps\_C
 
 | Command | Shortcut |
 | :--- | :--- |
-| Add selection to the next occurrence | ⌥+⇧+. |
+| Add selection to the next occurrence | ⌥⇧. |
 | Go to the previous place | ⌘\[ |
 | Go to the next place | ⌘\] |
 | Run all unit tests | ⇧⌘↵ |
