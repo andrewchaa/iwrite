@@ -65,4 +65,5 @@
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Application Insight on Service Fabric Worker Process](drafts/application-insight-on-service-fabric-worker-process.md)
+* [Create a nuget package and publish it to Azure Devops Repository](drafts/create-a-nuget-package-and-publish-it-to-azure-devops-repository.md)
 
