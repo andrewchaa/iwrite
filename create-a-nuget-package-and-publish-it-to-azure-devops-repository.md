@@ -98,7 +98,7 @@ steps:
     versioningScheme: 'byBuildNumber'
 
 - task: DotNetCoreCLI@2
-  displayName: Publish to Nuget Feed (innovation-release)
+  displayName: Publish to Nuget Feed (release)
   inputs:
     command: push
     packagesToPush: '$(Build.ArtifactStagingDirectory)/nupkgs/*.nupkg'
