@@ -60,6 +60,7 @@
 * [.NET Core Service Registrations](.net-core-service-registrations.md)
 * [Calling Azure DevOps APIs](calling-azure-devops-apis.md)
 * [Create a nuget package and publish it to Azure Devops Repository](create-a-nuget-package-and-publish-it-to-azure-devops-repository.md)
+* [Your Mac was unable to communicate with your Apple Watch](your-mac-was-unable-to-communicate-with-your-apple-watch.md)
 
 ## Drafts
 
@@ -67,5 +68,4 @@
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Application Insight on Service Fabric Worker Process](drafts/application-insight-on-service-fabric-worker-process.md)
 * [Building a simple CLI](drafts/building-a-simple-cli.md)
-* [Your Mac was unable to communicate with your Apple Watch](drafts/your-mac-was-unable-to-communicate-with-your-apple-watch.md)
 
