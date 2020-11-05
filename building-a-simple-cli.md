@@ -2,15 +2,11 @@
 
 CLI, command-line interface, provides a very handy command interface that serves your face. If restful APIs are for machine, CLI is for human, especially developers.
 
-### Install package
+First, Install package. 
 
-commandlineparser: [https://github.com/commandlineparser/commandline](https://github.com/commandlineparser/commandline)
+* commandlineparser: [https://github.com/commandlineparser/commandline](https://github.com/commandlineparser/commandline)
 
-```text
-CommandLineParser
-```
-
-### Quick start example
+The below is a modified version of the quick example. I've added async and await as most of the time, I need async methods.
 
 ```csharp
 using System;
@@ -43,7 +39,7 @@ namespace QuickStart
 }
 ```
 
-### show examples
+To help other users than me, it's good to show some examples. So if the command option is not give, I show some examples. 
 
 ```bash
 dotnet run
@@ -57,5 +53,32 @@ dotnet run --cmd publish-to-wiki
 dotnet run --cmd demo
 ```
 
+It would be good to separate out execution code from the command parse logic. So I use command classes. 
 
+```csharp
+static async Task Main(string[] args)
+{
+    await Parser.Default.ParseArguments<Options>(args)
+        .WithParsedAsync<Options>(async o =>
+    {
+        if (string.IsNullOrEmpty(o.Command))
+        {
+            Console.WriteLine("Examples: \n");
+            Console.WriteLine($"dotnet run --cmd {AddDomains}");
+            Console.WriteLine("");
+        } else if (o.Command == AddDomains)
+        {
+            new AddDomainsCommand().Run();
+        }
+    });
+}    
+
+internal class AddDomainsCommand
+{
+    public void Run()
+    {
+        
+    }
+}
+```
 
