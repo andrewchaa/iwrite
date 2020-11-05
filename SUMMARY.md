@@ -61,11 +61,11 @@
 * [Calling Azure DevOps APIs](calling-azure-devops-apis.md)
 * [Create a nuget package and publish it to Azure Devops Repository](create-a-nuget-package-and-publish-it-to-azure-devops-repository.md)
 * [Your Mac was unable to communicate with your Apple Watch](your-mac-was-unable-to-communicate-with-your-apple-watch.md)
+* [Building a simple CLI](building-a-simple-cli.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Application Insight on Service Fabric Worker Process](drafts/application-insight-on-service-fabric-worker-process.md)
-* [Building a simple CLI](drafts/building-a-simple-cli.md)
 
