@@ -63,11 +63,11 @@
 * [Your Mac was unable to communicate with your Apple Watch](your-mac-was-unable-to-communicate-with-your-apple-watch.md)
 * [Building a simple CLI](building-a-simple-cli.md)
 * [Programatically create wiki pages on Azure DevOps](programatically-create-wiki-pages-on-azure-devops.md)
+* [Handling files in c\#](handling-files-in-c.md)
 
 ## Drafts
 
 * [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Application Insight on Service Fabric Worker Process](drafts/application-insight-on-service-fabric-worker-process.md)
-* [Handling files in c\#](drafts/handling-files-in-c.md)
 
