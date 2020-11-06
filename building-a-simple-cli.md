@@ -82,3 +82,5 @@ internal class AddDomainsCommand
 }
 ```
 
+To do anything meaninful, we would need some service classes. So let's add them. 
+
