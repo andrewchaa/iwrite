@@ -8,5 +8,5 @@ Another day, another shortcuts
 | ⌘R | Reload |
 | ⌥⌘C | Copy |
 | ⌘E | Extra info |
-| ⌥⌘ | Send keyboard input to the device |
+| ⌥⌘K | Send keyboard input to the device |
 
