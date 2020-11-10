@@ -64,6 +64,7 @@
 * [Building a simple CLI](building-a-simple-cli.md)
 * [Programatically create wiki pages on Azure DevOps](programatically-create-wiki-pages-on-azure-devops.md)
 * [Handling files in c\#](handling-files-in-c.md)
+* [git credential manager](git-credential-manager.md)
 
 ## Drafts
 
