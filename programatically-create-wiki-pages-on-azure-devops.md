@@ -25,26 +25,38 @@ public class Startup
 
 ```
 
-Then get the service from ServiceProvider and publish your page
+Then get the service from ServiceProvider and publish your page. If you want to update the existing page, you have to send etags in the request.
 
 ```csharp
 public async Task Publish(string page, string markdown)
 {
-    var pageResponse = await _client.GetPageAsync(Project,
-        WikiIdentifier,
-        page,
-        includeContent: false);
-    
-    await DeletePage(page);
+    var etags = await GetEtag(page);
     await _client.CreateOrUpdatePageAsync(new WikiPageCreateOrUpdateParameters { Content = markdown },
         Project,
         WikiIdentifier,
         page,
-        ""
+        string.Join(", ", etags)
     );
 
     Console.WriteLine($"Published the page: {page}.");
 }
 
+private async Task<IEnumerable<string>> GetEtag(string page)
+{
+    try
+    {
+        var pageResponse = await _client.GetPageAsync(Project,
+            WikiIdentifier,
+            page,
+            includeContent: false);
+
+        return pageResponse.ETag;
+    }
+    catch (Exception)
+    {
+        Console.WriteLine($"The wiki page: {page} doesn't exist.");
+        return new List<string>();
+    }
+}
 ```
 
