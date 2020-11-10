@@ -25,3 +25,26 @@ public class Startup
 
 ```
 
+Then get the service from ServiceProvider and publish your page
+
+```csharp
+public async Task Publish(string page, string markdown)
+{
+    var pageResponse = await _client.GetPageAsync(Project,
+        WikiIdentifier,
+        page,
+        includeContent: false);
+    
+    await DeletePage(page);
+    await _client.CreateOrUpdatePageAsync(new WikiPageCreateOrUpdateParameters { Content = markdown },
+        Project,
+        WikiIdentifier,
+        page,
+        ""
+    );
+
+    Console.WriteLine($"Published the page: {page}.");
+}
+
+```
+
