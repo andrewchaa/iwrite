@@ -66,6 +66,7 @@
 * [Handling files in c\#](handling-files-in-c.md)
 * [git credential manager](git-credential-manager.md)
 * [LED Tube lamp](led-tube-lamp.md)
+* [C\# LINQ in the wild](c-linq-in-the-wild.md)
 
 ## Drafts
 
