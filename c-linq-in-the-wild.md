@@ -1,6 +1,18 @@
 # C\# LINQ in the wild
 
-Note for myself
+This is a note for myself so that I don't have to search the use case somewhere else again.
+
+#### Find the duplicates in the list
+
+[Use GroupBy and Count](https://stackoverflow.com/questions/18547354/c-sharp-linq-find-duplicates-in-list)
+
+```csharp
+var query = lst.GroupBy(x => x)
+              .Where(g => g.Count() > 1)
+              .Select(y => y.Key)
+              .ToList();
+
+```
 
 #### Query list that contains a list
 
