@@ -17,3 +17,20 @@ private static List<string> GetDomains(IList<DomainService> services)
 }
 ```
 
+#### Flatten queries, returning list of lists
+
+{% embed url="https://stackoverflow.com/questions/958949/difference-between-select-and-selectmany" %}
+
+```csharp
+var releases = bankingCore.DeploymentGroups
+    .Where(x => x.ReleaseDefinitions != null)
+    .SelectMany(x => x.ReleaseDefinitions)
+    .ToList();
+var builds = bankingCore.DeploymentGroups
+    .Where(x => x.BuildDefinitions != null)
+    .SelectMany(x => x.BuildDefinitions)
+    .ToList();
+```
+
+
+
