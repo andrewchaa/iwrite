@@ -67,10 +67,10 @@
 * [git credential manager](git-credential-manager.md)
 * [LED Tube lamp](led-tube-lamp.md)
 * [C\# LINQ in the wild](c-linq-in-the-wild.md)
+* [Build a React app with Azure Devops Pipeline](build-a-react-app-with-azure-devops-pipeline.md)
 
 ## Drafts
 
-* [Build a React app with Azure Devops Pipeline](drafts/build-a-react-app-with-azure-devops-pipeline.md)
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Application Insight on Service Fabric Worker Process](drafts/application-insight-on-service-fabric-worker-process.md)
 
