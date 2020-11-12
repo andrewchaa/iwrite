@@ -2,6 +2,15 @@
 
 Note for myself
 
+#### Query list that contains a list
+
+{% embed url="https://stackoverflow.com/questions/2364090/linq-query-list-contains-a-list" %}
+
+```csharp
+ListObjectB.Where(p => p.ListOfObjectA.Any(x => ListOfIdsA.Contains(x.Id)))
+ListObjectB.Where(p => p.ListOfObjectA.All(x => ListOfIdsA.Contains(x.Id)))
+```
+
 #### Distinct, ignoring case
 
 Use StringComparer \([https://stackoverflow.com/questions/283063/linq-distinct-operator-ignore-case](https://stackoverflow.com/questions/283063/linq-distinct-operator-ignore-case)\)
