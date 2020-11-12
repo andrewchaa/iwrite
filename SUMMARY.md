@@ -68,6 +68,7 @@
 * [LED Tube lamp](led-tube-lamp.md)
 * [C\# LINQ in the wild](c-linq-in-the-wild.md)
 * [Build a React app with Azure Devops Pipeline](build-a-react-app-with-azure-devops-pipeline.md)
+* [Azure DevOps Build Pipeline](azure-devops-build-pipeline.md)
 
 ## Drafts
 
