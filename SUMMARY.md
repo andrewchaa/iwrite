@@ -72,6 +72,7 @@
 * [Azure DevOps Wiki Syntax](azure-devops-wiki-syntax.md)
 * [Me Getting started with Go](me-getting-started-with-go.md)
 * [Moving blog engine to Hugo](moving-blog-engine-to-hugo.md)
+* [Conditional Build on Azure Devops Pipeline](conditional-build-on-azure-devops-pipeline.md)
 
 ## Drafts
 
