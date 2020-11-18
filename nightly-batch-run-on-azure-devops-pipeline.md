@@ -7,6 +7,8 @@ My choice of solution is
 * Create a console app that does the job.
 * Set up a pipeline that runs nightly to execute the console app.
 
+### CI Build
+
 First, build a console app and publish it as artifact.
 
 ```yaml
@@ -85,6 +87,10 @@ jobs:
           Write-Host "##vso[build.addbuildtag]$(version)"
         displayName: add build tag
 ```
+
+A few things to note
+
+* build.artifactStagingDirectory: the directory where artifact is staged
 
 Now, I have a build artifact that contains the console application. Create another pipeline that will download the artifact and run the executable. 
 
