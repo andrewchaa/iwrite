@@ -88,5 +88,66 @@ jobs:
 
 Now, I have a build artifact that contains the console application. Create another pipeline that will download the artifact and run the executable. 
 
+```yaml
+name: $(Build.DefinitionName)-$(Date:yyyyMMdd)$(Rev:.r)
+schedules:
+  - cron: "0 0 * * *"
+    displayName: Nightly run
+    always: true
+    branches:
+      include:
+        - master
+trigger: none
+parameters:  
+  - name: build_tag
+    displayName: Build Tag
+    type: string
+    default: latest
+variables:
+  - name: major
+    value: 1
+  - name: minor
+    value: 0
+  - name: patch
+    value: $[counter(variables['minor'], 0)]
+  - name: version
+    value: $(major).$(minor).$(patch)
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: /yaml-templates
+      ref: refs/heads/master      
+  pipelines:
+    - pipeline: build
+      source: ci
+
+jobs:
+  - job: run_cli
+    pool:
+      vmImage: windows-2019
+    steps:
+      - download: none
+      - task: DownloadPipelineArtifact@2
+        displayName: download cli from '$(resources.pipeline.build.pipelineName)' with tag '${{ parameters.build_tag }}'
+        name: download_artifact_console
+        inputs:
+          source: specific
+          project: $(System.TeamProjectId)
+          pipeline: $(resources.pipeline.build.pipelineID)
+          artifactName: cli
+          path: $(Pipeline.Workspace)/cli
+          runVersion: latest
+          allowPartiallySucceededBuilds: false
+          allowFailedBuilds: false
+      # Execute cli app
+      - pwsh: ./Clis.exe --cmd create-domainpage
+        workingDirectory: $(Pipeline.Workspace)/cli
+        displayName: Executing script
+        env:
+          devops-wiki-token: $(devops-wiki-token)
+
+```
+
 
 
