@@ -34,24 +34,58 @@ By doing this assignment, I learned stdin, number conversion, and Println format
 package main
 
 import "fmt"
-import "strconv"
 
 func main() {
-	var floatingNumberString string
+	var input float64
+	var number int
 
 	fmt.Println("Enter your floating number")
-	fmt.Scanln(&floatingNumberString)
+	fmt.Scanln(&input)
 
-	if floatingNumber, err := strconv.ParseFloat(floatingNumberString, 64); err == nil {
-		intNumber := int64(floatingNumber)
-		fmt.Printf("Your int value is %d\n", intNumber)
-	}
+	number = int(input)
+	fmt.Printf("Your int value is %d\n", number)
 }
+
 ```
 
-I liked the concise yet powerful if statement that handles nil gracefully.
+Scanln accepts user input. Yet it can't handle space so you need to use bufio if the input has any space in it. 
 
+### handling strings
 
+```go
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+	"strings"
+)
+
+func main() {
+
+	fmt.Println("Enter your string input")
+	scanner := bufio.NewScanner(os.Stdin)
+	scanner.Scan()
+	input := scanner.Text()
+
+	var inputLowercase = strings.ToLower(input)
+	var userInputBody = inputLowercase[1:len(inputLowercase)-1]
+
+	if strings.HasPrefix(inputLowercase, "i") &&
+		strings.HasSuffix(inputLowercase, "n") &&
+		strings.Contains(userInputBody, "a") {
+
+		fmt.Println("Found!")
+	} else {
+		fmt.Println("Not Found!")
+	}
+
+}
+
+```
+
+bufio is to receive user input that includes space. string is a collection of character. \[0:10\] syntax was really powerful.
 
 
 
