@@ -145,9 +145,9 @@ jobs:
         workingDirectory: $(Pipeline.Workspace)/cli
         displayName: Executing script
         env:
-          devops-wiki-token: $(devops-wiki-token)
+          wiki-token: $(wiki-token)
 
 ```
 
-
+Lastly, we need to the access token for the cli app. It needs read only access to a repository and write access to wiki. You can create variables for the pipeline. Set it as secret so that the value wouldn't be visible.
 
