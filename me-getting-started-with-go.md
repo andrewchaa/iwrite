@@ -1,4 +1,6 @@
-# Me Getting started with Go
+# Learning Go
+
+Not the game of Go, but golang. 
 
 Recently, my friend, Eduard, suggested learning Golang. Go is an interesting language with powerful low-level features like pointer but also with modern language support like garbage collection. 
 
