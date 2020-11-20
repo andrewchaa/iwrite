@@ -159,3 +159,95 @@ jobs:
 
 Lastly, we need to the access token for the cli app. It needs read only access to a repository and write access to wiki. You can create variables for the pipeline. Set it as secret so that the value wouldn't be visible.
 
+### Tasks I've used
+
+ A [**task**](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/tasks?view=azure-devops&tabs=yaml) is the building block for defining automation in a pipeline. A task is simply a packaged script or procedure that has been abstracted with a set of inputs.
+
+#### Test
+
+```yaml
+# Test
+- task: DotNetCoreCLI@2
+  displayName: Test Projects
+  inputs:
+    command: test
+    projects: $(testProjects)
+    publishTestResults: true
+    arguments: '--no-build -c $(buildConfiguration) /p:Platform=x64'      
+
+```
+
+#### Build
+
+```yaml
+# Install dotnet  
+- task: UseDotNet@2        
+  inputs:
+    packageType: 'sdk'
+    version: $(dotnetCliVersion)
+    displayName: dotnet install
+
+# Restore packages
+- task: DotNetCoreCLI@2
+  displayName: Restore Packages
+  inputs:
+    command: restore
+    feedsToUse: select
+    includeNuGetOrg: false
+    projects: $(buildProjects)
+    noCache: false
+
+# Build          
+- task: DotNetCoreCLI@2
+  displayName: Build Projects
+  inputs:
+    projects: $(buildProjects)
+    packDirectory: '$(build.artifactStagingDirectory)'
+    arguments: '-c $(buildConfiguration) /p:Platform=x64 /p:Version=$(Build.BuildNumber) --no-restore'      
+
+```
+
+#### Publish and add it as artifact
+
+```yaml
+# dotnet publish
+- task: DotNetCoreCLI@2
+  displayName: Publish Console Project
+  inputs:
+    command: publish
+    publishWebProjects: false
+    zipAfterPublish: false
+    projects: $(cliProject)
+    arguments: --no-build --no-restore -c Release /p:Platform=x64 /p:Version=$(Build.BuildNumber) -o "$(build.artifactStagingDirectory)\cli\"
+
+# publics the artifact
+- publish: $(build.artifactStagingDirectory)\cli
+  displayName: Publish Artifact
+  artifact: cli
+
+```
+
+#### Pack nuget package and publish to the feed
+
+```yaml
+# pack nuget package
+- task: NuGetCommand@2
+  displayName: Pack
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  inputs:
+    command: 'pack'
+    packagesToPack: '**/*.nuspec'
+    versioningScheme: 'byBuildNumber'
+    buildProperties: 'Platform=x64'
+
+# Publish to the innovation release feed
+- task: DotNetCoreCLI@2 
+  displayName: Publish to Nuget Feed
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  inputs:
+    command: push
+    packagesToPush: '$(build.artifactStagingDirectory)/*.nupkg'
+    publishVstsFeed: ''
+
+```
+
