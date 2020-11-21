@@ -1,4 +1,4 @@
-# Learning Go
+# Following Go course in Coursera
 
 Not the game of Go, but golang. 
 
