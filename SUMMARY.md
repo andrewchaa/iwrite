@@ -8,7 +8,6 @@
 * [How I'm setting my Windows developer machine](how-im-setting-windows-developer-machine.md)
 * [Logging on AWS Lambda with .NET Core](logging-on-aws-lambda-with-.net-core.md)
 * [Fix Port number for Service Fabric ASP.NET Core on the local development machine](fix-port-number-for-service-fabric-asp.net-core-on-the-local-development-machine.md)
-* [Calling the parent's function from a child component in React](calling-the-parents-function-from-a-child-component-in-react.md)
 * [Any CPU settings in Visual Studio sln content for Service Fabric service](visual-studio-sln-content-for-service-fabric-service.md)
 * [Calling an API with redux saga](calling-an-api-with-redux-saga.md)
 * [Calling api endpoints with Refit](calling-api-endpoints-with-refit.md)
@@ -36,7 +35,6 @@
 * [Access HttpContext inside a service](access-httpcontext-inside-a-service.md)
 * [Killing a Process in Windows 10](killing-a-process-in-windows-10.md)
 * [Windows 10 Tips and Tricks](windows-10-tips-and-tricks.md)
-* [React Native TextInput](react-native-textinput.md)
 * [Windows Explorer Keyboard Shortcuts](windows-explorer-keyboard-shortcuts.md)
 * [ASP.NET MVC Custom Action Filters](asp.net-mvc-custom-action-filters.md)
 * [Creating a test Subscription to Azure Service Bus Topic](creting-a-test-subscription-to-azure-service-bus-topic.md)
@@ -77,6 +75,12 @@
 * [Conditional Build on Azure Devops Pipeline](conditional-build-on-azure-devops-pipeline.md)
 * [Nightly batch run on Azure DevOps Pipeline](nightly-batch-run-on-azure-devops-pipeline.md)
 * [Setting up my Mac](setting-up-my-macbook-pro.md)
+
+## React
+
+* [React Native TextInput](react/react-native-textinput.md)
+* [Calling the parent's function from a child component in React](react/calling-the-parents-function-from-a-child-component-in-react.md)
+* [React Navigation](react/react-navigation.md)
 
 ## Drafts
 
