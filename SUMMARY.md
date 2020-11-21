@@ -70,6 +70,7 @@
 * [Build a React app with Azure Devops Pipeline](build-a-react-app-with-azure-devops-pipeline.md)
 * [Azure DevOps Build Pipeline](azure-devops-build-pipeline.md)
 * [Azure DevOps Wiki Syntax](azure-devops-wiki-syntax.md)
+* [Setting up Go environment](setting-up-go-environment.md)
 * [Learning Go through a course in Coursera](me-getting-started-with-go.md)
 * [Moving blog engine to Hugo](moving-blog-engine-to-hugo.md)
 * [Conditional Build on Azure Devops Pipeline](conditional-build-on-azure-devops-pipeline.md)

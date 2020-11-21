@@ -26,13 +26,7 @@ func main() {
 
 To run it, do `go run hello.go` 
 
-## Organising Go code
 
-Go programs are organised into packages. 
-
-* Package: a collection of source files in the same directory
-* Module: a collection of related Go packages. 
-* Repository: contains one or more modules
 
 ### truncate fractional digits to int value
 
