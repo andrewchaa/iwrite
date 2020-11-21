@@ -72,6 +72,7 @@
 * [Azure DevOps Wiki Syntax](azure-devops-wiki-syntax.md)
 * [Setting up Go environment](setting-up-go-environment.md)
 * [Learning Go through a course in Coursera](me-getting-started-with-go.md)
+* [Publish my github documents as blog posts](publish-my-github-documents-as-blog-posts.md)
 * [Moving blog engine to Hugo](moving-blog-engine-to-hugo.md)
 * [Conditional Build on Azure Devops Pipeline](conditional-build-on-azure-devops-pipeline.md)
 * [Nightly batch run on Azure DevOps Pipeline](nightly-batch-run-on-azure-devops-pipeline.md)
