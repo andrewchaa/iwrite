@@ -75,7 +75,7 @@
 * [Moving blog engine to Hugo](moving-blog-engine-to-hugo.md)
 * [Conditional Build on Azure Devops Pipeline](conditional-build-on-azure-devops-pipeline.md)
 * [Nightly batch run on Azure DevOps Pipeline](nightly-batch-run-on-azure-devops-pipeline.md)
-* [Setting up my MacBook Pro](setting-up-my-macbook-pro.md)
+* [Setting up my Mac](setting-up-my-macbook-pro.md)
 
 ## Drafts
 
