@@ -80,7 +80,7 @@
 
 * [React Native TextInput](react/react-native-textinput.md)
 * [Calling the parent's function from a child component in React](react/calling-the-parents-function-from-a-child-component-in-react.md)
-* [React Navigation](react/react-navigation.md)
+* [React Navigation in my code](react/react-navigation.md)
 
 ## Drafts
 

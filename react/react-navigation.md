@@ -1,4 +1,4 @@
-# React Navigation
+# React Navigation in my code
 
 * Create a Stack
 * Create a mother Stack that hosts all other Stacks
