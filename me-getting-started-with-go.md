@@ -1,4 +1,4 @@
-# Following Go course in Coursera
+# Learning Go through a course in Coursera
 
 Not the game of Go, but golang. 
 
@@ -25,6 +25,14 @@ func main() {
 `import` bring in package. In go, everything is package. `fmt` is like Console in `c#` 
 
 To run it, do `go run hello.go` 
+
+## Organising Go code
+
+Go programs are organised into packages. 
+
+* Package: a collection of source files in the same directory
+* Module: a collection of related Go packages. 
+* Repository: contains one or more modules
 
 ### truncate fractional digits to int value
 
