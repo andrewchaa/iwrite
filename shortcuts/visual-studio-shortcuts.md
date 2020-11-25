@@ -1,6 +1,6 @@
 # Visual Studio shortcuts
 
-## Intellij Mapping
+## in Intellij Mapping
 
 | Key | Description |
 | :--- | :--- |
