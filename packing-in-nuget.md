@@ -25,3 +25,28 @@ Let's [update project file to support multiple .NET framework versions](https://
 
 Now, `dotnet pack` will create .nupkg targetting both .NET Standard 2.1 and .NET Framework 4.5 and 4.6. Make sure you reload the project. 
 
+## Build script
+
+```yaml
+# pack nuget package
+- task: DotNetCoreCLI@2
+  displayName: Pack
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  inputs:
+    command: 'pack'
+    configuration: 'release'
+    packagesToPack: $(packageProject)
+    packDirectory: '$(build.artifactStagingDirectory)/nupkgs'
+    versioningScheme: 'byBuildNumber'        
+
+# Publish to the innovation release feed
+- task: DotNetCoreCLI@2 
+  displayName: Publish to Nuget Feed
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  inputs:
+    command: push
+    packagesToPush: '$(build.artifactStagingDirectory)/nupkgs/*.nupkg'
+    publishVstsFeed: ''
+
+```
+
