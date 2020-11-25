@@ -85,6 +85,10 @@
 * [React Navigation in my code](react/react-navigation.md)
 * [error listen EADDRINUSE: address already in use :::8081](react/error-listen-eaddrinuse-address-already-in-use-8081.md)
 
+## Shortcuts
+
+* [Visual Studio shortcuts](shortcuts/visual-studio-shortcuts.md)
+
 ## Drafts
 
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
