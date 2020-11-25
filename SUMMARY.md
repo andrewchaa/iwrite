@@ -59,6 +59,7 @@
 * [.NET Core Service Registrations](.net-core-service-registrations.md)
 * [Calling Azure DevOps APIs](calling-azure-devops-apis.md)
 * [Create a nuget package and publish it to Azure Devops Repository](create-a-nuget-package-and-publish-it-to-azure-devops-repository.md)
+* [Packing in Nuget](packing-in-nuget.md)
 * [Your Mac was unable to communicate with your Apple Watch](your-mac-was-unable-to-communicate-with-your-apple-watch.md)
 * [Building a simple CLI](building-a-simple-cli.md)
 * [Programatically create wiki pages on Azure DevOps](programatically-create-wiki-pages-on-azure-devops.md)
