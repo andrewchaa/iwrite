@@ -11,14 +11,28 @@ Let's [update project file to support multiple .NET framework versions](https://
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net45;net46</TargetFrameworks>
-    <Platforms>x64</Platforms>
-    <IsPackable>True</IsPackable>
-    <Description>Decorate your domain event classes to publish the event details to ClearBank Domain Events wiki</Description>
-    <Company>Bank</Company>
-    <Authors>Bank </Authors>
-    <Product>Domain Events Package</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SanPellgrino</PackageId>
+    <Version>0.4.0</Version>
+    <Authors>Andrew Chaa</Authors>
+    <AssemblyName>SanPellgrino</AssemblyName>
+    <RootNamespace>SanPellgrino</RootNamespace>
+    <Description>A collection of useful extension methods</Description>
+    <PackageProjectUrl>https://github.com/andrewchaa/sanpellgrino</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/andrewchaa/SanPellgrino/master/src/Extensions/icon.jpeg</PackageIconUrl>
+    <PackageIcon>icon.jpeg</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Extension Methods, Helper Methods</PackageTags>
   </PropertyGroup>
-
+  <ItemGroup>
+    <Reference Include="xunit.assert, Version=2.4.0.4049, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c">
+      <HintPath>..\..\..\.nuget\packages\xunit.assert\2.4.0\lib\netstandard2.0\xunit.assert.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.core, Version=2.4.0.4049, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c">
+      <HintPath>..\..\..\.nuget\packages\xunit.extensibility.core\2.4.0\lib\netstandard2.0\xunit.core.dll</HintPath>
+    </Reference>
+    <None Include=".\icon.jpeg" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
 
 ```
