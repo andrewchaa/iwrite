@@ -86,6 +86,10 @@
 * [React Navigation in my code](react/react-navigation.md)
 * [error listen EADDRINUSE: address already in use :::8081](react/error-listen-eaddrinuse-address-already-in-use-8081.md)
 
+## Data
+
+* [Using dapper with in-memory sqlite](data/using-dapper-with-in-memory-sqlite.md)
+
 ## Shortcuts
 
 * [Visual Studio shortcuts](shortcuts/visual-studio-shortcuts.md)
