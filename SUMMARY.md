@@ -78,6 +78,7 @@
 * [Nightly batch run on Azure DevOps Pipeline](nightly-batch-run-on-azure-devops-pipeline.md)
 * [Setting up my Mac](setting-up-my-macbook-pro.md)
 * [My favourite Libraries and Frameworks](my-favourite-libraries-and-frameworks.md)
+* [Templating with scriban](templating-with-scriban.md)
 
 ## React
 
