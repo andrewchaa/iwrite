@@ -79,6 +79,7 @@
 * [Setting up my Mac](setting-up-my-macbook-pro.md)
 * [My favourite Libraries and Frameworks](my-favourite-libraries-and-frameworks.md)
 * [Templating with scriban](templating-with-scriban.md)
+* [Using reflection](using-reflection.md)
 
 ## React
 
