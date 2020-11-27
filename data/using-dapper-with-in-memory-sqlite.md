@@ -24,5 +24,16 @@ createCommand.CommandText =
 createCommand.ExecuteNonQuery();
 ```
 
+Btw, Sqlite query is case-sensitive by default. To do case-insensitive comparison, use `COLLATE NOCASE` 
 
+```csharp
+public async Task<HiveTeam> GetTeam(string name)
+{
+    await using var connection = new SqliteConnection(ScrivenerDatabase.ConnectionString);
+    return await connection.QueryFirstOrDefaultAsync<HiveTeam>(
+        $"SELECT * FROM {Tables.Teams} WHERE Name = @name COLLATE NOCASE",
+        new {name});
+}
+
+```
 
