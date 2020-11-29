@@ -81,16 +81,20 @@
 * [Templating with scriban](templating-with-scriban.md)
 * [Using reflection](using-reflection.md)
 
+## AWS Amplify
+
+* [Build and deploy a full-stack react app on AWS](aws-amplify/build-and-deploy-a-full-stack-react-app-on-aws.md)
+
+## Data
+
+* [Using dapper with in-memory sqlite](data/using-dapper-with-in-memory-sqlite.md)
+
 ## React
 
 * [React Native TextInput](react/react-native-textinput.md)
 * [Calling the parent's function from a child component in React](react/calling-the-parents-function-from-a-child-component-in-react.md)
 * [React Navigation in my code](react/react-navigation.md)
 * [error listen EADDRINUSE: address already in use :::8081](react/error-listen-eaddrinuse-address-already-in-use-8081.md)
-
-## Data
-
-* [Using dapper with in-memory sqlite](data/using-dapper-with-in-memory-sqlite.md)
 
 ## Shortcuts
 
