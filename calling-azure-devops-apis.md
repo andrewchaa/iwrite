@@ -4,6 +4,9 @@ You can write handy tools to boost your productivity and minimise chores by usin
 
 ### .NET Client libraries
 
+* Microsoft.VisualStudio.Services.Release.Client
+* Microsoft.VisualStudio.Services.Client
+
 {% embed url="https://docs.microsoft.com/en-us/azure/devops/integrate/concepts/dotnet-client-libraries?view=azure-devops" %}
 
 ### API documentation
