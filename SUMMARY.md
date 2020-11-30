@@ -74,12 +74,16 @@
 * [Learning Go through a course in Coursera](me-getting-started-with-go.md)
 * [Publish my github documents as blog posts](publish-my-github-documents-as-blog-posts.md)
 * [Moving blog engine to Hugo](moving-blog-engine-to-hugo.md)
-* [Conditional Build on Azure Devops Pipeline](conditional-build-on-azure-devops-pipeline.md)
-* [Nightly batch run on Azure DevOps Pipeline](nightly-batch-run-on-azure-devops-pipeline.md)
 * [Setting up my Mac](setting-up-my-macbook-pro.md)
 * [My favourite Libraries and Frameworks](my-favourite-libraries-and-frameworks.md)
 * [Templating with scriban](templating-with-scriban.md)
 * [Using reflection](using-reflection.md)
+
+## Azure DevOps
+
+* [Conditional Build on Azure Devops Pipeline](azure-devops/conditional-build-on-azure-devops-pipeline.md)
+* [Nightly batch run on Azure DevOps Pipeline](azure-devops/nightly-batch-run-on-azure-devops-pipeline.md)
+* [Untitled](azure-devops/untitled.md)
 
 ## AWS Amplify
 
@@ -88,6 +92,7 @@
 ## Data
 
 * [Using dapper with in-memory sqlite](data/using-dapper-with-in-memory-sqlite.md)
+* [Sql queries I use](data/sql-queries-i-use.md)
 
 ## React
 
