@@ -8,16 +8,10 @@ The first step is to add a test on the buld. It didn't have any build trigger. S
 name: scoring-services
 trigger:
   branches:
-    include:
-    - hotfix/*
-    - release/*
-    - feature/*
-    - bugfix/*
-    - backlog/*
-    - task/*
-```
+    exclude:
+      - master
 
-Those are usual branches people use when they create a PR.
+```
 
 Now also shedule it to run it nightly
 
