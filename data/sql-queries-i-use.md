@@ -14,3 +14,13 @@ The above distinct is case-sensitive, especially in sqlite. for case-insensitive
 SELECT Domain Services GROUP BY LOWER(Domain)
 ```
 
+#### Case-insensitive string comparison
+
+Use `COLLATE NOCASE`
+
+```sql
+SELECT DISTINCT Repository 
+  FROM ServiceDefinitions 
+WHERE Team = @Team COLLATE NOCASE
+```
+
