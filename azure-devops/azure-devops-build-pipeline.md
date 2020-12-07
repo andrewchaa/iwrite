@@ -2,7 +2,7 @@
 
 ## [Overview](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 * A trigger tells a Pipeline to run
 * A pipeline is made of one or more stages. A pipeline can deploy to one or more environments
