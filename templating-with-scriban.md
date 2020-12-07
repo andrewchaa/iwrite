@@ -7,9 +7,9 @@ Simply create a template and pass data object as parameter.
 ```csharp
     var template = Template.Parse(@"
 ##Ownership 
-| **Domain Event** | **Subscriptions** | **Domain** | **Sub Domain** | **Team**  | **Team Lead** | **CodeBase**  |
-|--|--|--|--|--|--|--|
-| {{name}} |   | [{{domain}}](/{{domain_link}}) | {{sub_domain}} | {{team}}  |   | {{repository}}  |
+**Domain Event** | **Subscriptions** | **Domain** | **Sub Domain** | **Team**  | **Team Lead** | **CodeBase**
+--|--|--|--|--|--|--
+{{name}} |   | [{{domain}}](/{{domain_link}}) | {{sub_domain}} | {{team}}  |   | {{repository}}
 
 <br>
 <br>
@@ -36,5 +36,15 @@ var template = Template.Parse(@"
   {{ properties }}
 ");
 
+```
+
+### Whicespace control
+
+By default, any whitespace \(including new lines\) bofore or after a code block are copied as-is to the output. To use loop, "non greedy mode" using the charcter ~
+
+```csharp
+{{~ for event in events ~}}
+[{{event.name}}]({{event.link}})
+{{~ end ~}}
 ```
 

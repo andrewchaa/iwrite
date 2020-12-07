@@ -92,3 +92,9 @@ jobs:
         displayName: add build tag
 ```
 
+## Approvals, checks, and gates
+
+### Gate
+
+Gates allow you to configure automated calls to external services, where the results are used to approve or reject a deployment. 
+

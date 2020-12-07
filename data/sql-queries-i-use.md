@@ -12,6 +12,20 @@ SELECT DISTINCT Repository
 WHERE Team = @Team COLLATE NOCASE
 ```
 
+#### Create a table
+
+```sql
+CREATE TABLE IF NOT EXISTS ServiceDefinitions (
+    Name Text NOT NULL PRIMARY KEY,
+    Team Text,
+    Repository Text,
+    Tier Text,
+    Domain Text,
+    SubDomain Text
+)
+
+```
+
 #### Handling duplicates
 
 ```sql
