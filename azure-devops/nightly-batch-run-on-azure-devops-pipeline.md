@@ -134,6 +134,7 @@ jobs:
   - job: run_cli
     pool:
       vmImage: windows-2019
+    timeoutInMinutes: 90
     steps:
       - download: none
       - task: DownloadPipelineArtifact@2
@@ -156,6 +157,8 @@ jobs:
           wiki-token: $(wiki-token)
 
 ```
+
+`timeoutInMinutes` is very handy. Be default, if a job runs longer than 60 minutes, it fails. One of my nightly job runs longer, so I set it to 90 minutes.
 
 Lastly, we need to the access token for the cli app. It needs read only access to a repository and write access to wiki. You can create variables for the pipeline. Set it as secret so that the value wouldn't be visible.
 
