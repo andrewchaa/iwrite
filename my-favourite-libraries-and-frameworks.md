@@ -3,4 +3,5 @@
 | Name | Description |
 | :--- | :--- |
 |  [scriban](https://github.com/lunet-io/scriban) | A fast, powerful, safe and lightweight scripting language and engine for .NET |
+| [screenity](https://github.com/alyssaxuu/screenity) | The most powerful screen recorder & annotation tool for Chrome 🎥 |
 
