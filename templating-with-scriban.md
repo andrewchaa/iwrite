@@ -42,7 +42,7 @@ var template = Template.Parse(@"
 
 By default, any whitespace \(including new lines\) bofore or after a code block are copied as-is to the output. To use loop, "non greedy mode" using the charcter ~
 
-```csharp
+```c
 {{~ for event in events ~}}
 [{{event.name}}]({{event.link}})
 {{~ end ~}}
