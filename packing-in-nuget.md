@@ -39,6 +39,21 @@ Let's [update project file to support multiple .NET framework versions](https://
 
 Now, `dotnet pack` will create .nupkg targetting both .NET Standard 2.1 and .NET Framework 4.5 and 4.6. Make sure you reload the project. 
 
+[PackageIconUrl is deprecated](https://docs.microsoft.com/en-us/nuget/reference/msbuild-targets#packageiconurl). So use PackageIcon and include the image in the project. 
+
+```markup
+<PropertyGroup>
+  ...
+  <PackageIcon>fountain-pen.png</PackageIcon>
+  ...
+</PropertyGroup>
+
+<ItemGroup>
+  <None Include="fountain-pen.png" Pack="true" PackagePath="\" />
+</ItemGroup>
+
+```
+
 ## Build script
 
 ```yaml
