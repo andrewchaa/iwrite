@@ -1,12 +1,38 @@
-# Using dapper with in-memory sqlite
+# Using dapper with sqlite
 
 [Dapper](https://github.com/StackExchange/Dapper) makes it really easy to store and to query data from relational database.
+
+#### Connection strings
+
+```bash
+# basic
+Data Source=Application.db;Cache=Shared
+
+# encrypted
+Data Source=Encrypted.db;Password=MyEncryptionKey
+
+# read only
+Data Source=Reference.db;Mode=ReadOnly
+
+# in-memory
+Data Source=:memory:
+
+# shareable in-memory
+Data Source=Sharable;Mode=Memory;Cache=Shared
+```
 
 By setting Mode to memory, you can create an in-memory sqlite database. `Mode=Memory;Cache=Shared` will make the database shared across connections.
 
 ```csharp
-var masterSqliteConnection = new SqliteConnection("Data Source=Scriveners;Mode=Memory;Cache=Shared");
-            _masterSqliteConnection.Open();
+var masterSqliteConnection = new SqliteConnection(
+  "Data Source=Scriveners;Mode=Memory;Cache=Shared"
+  );
+ masterSqliteConnection.Open();
+```
+
+
+
+```csharp
 var createCommand = connection.CreateCommand();
 createCommand.CommandText =
     @"

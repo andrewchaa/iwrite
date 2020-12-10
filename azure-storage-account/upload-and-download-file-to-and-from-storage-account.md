@@ -25,5 +25,35 @@ Use the following .NET classes to interact with these resources:
 * [BlobClient](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobclient): The `BlobClient` class allows you to manipulate Azure Storage blobs.
 * [BlobDownloadInfo](https://docs.microsoft.com/en-us/dotnet/api/azure.storage.blobs.models.blobdownloadinfo): The `BlobDownloadInfo` class represents the properties and content returned from downloading a blob.
 
-###   <a id="code-examples"></a>
+#### Create a container
+
+```csharp
+
+var blobServiceClient = new BlobServiceClient(connectionString);
+
+//Create a unique name for the container
+string containerName = "quickstartblobs" + Guid.NewGuid().ToString();
+
+// Create the container and return a container client object
+BlobContainerClient containerClient = await blobServiceClient.CreateBlobContainerAsync(containerName);
+```
+
+#### Download blobs 
+
+Download the previously created blob by calling the DownloadAsync method. The example code adds a suffix of "DOWNLOADED" to the file name so that you can see both files in local file system.
+
+```csharp
+string downloadFilePath = localFilePath.Replace(".txt", "DOWNLOADED.txt");
+
+Console.WriteLine("\nDownloading blob to\n\t{0}\n", downloadFilePath);
+
+// Download the blob's contents and save it to a file
+BlobDownloadInfo download = await blobClient.DownloadAsync();
+
+using (FileStream downloadFileStream = File.OpenWrite(downloadFilePath))
+{
+    await download.Content.CopyToAsync(downloadFileStream);
+    downloadFileStream.Close();
+}
+```
 

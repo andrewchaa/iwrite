@@ -95,7 +95,7 @@
 
 ## Data
 
-* [Using dapper with in-memory sqlite](data/using-dapper-with-in-memory-sqlite.md)
+* [Using dapper with sqlite](data/using-dapper-with-in-memory-sqlite.md)
 * [Sql queries I use](data/sql-queries-i-use.md)
 
 ## React
