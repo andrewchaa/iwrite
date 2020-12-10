@@ -73,6 +73,10 @@
 * [Templating with scriban](templating-with-scriban.md)
 * [Using reflection](using-reflection.md)
 
+## AWS Amplify
+
+* [Build and deploy a full-stack react app on AWS](aws-amplify/build-and-deploy-a-full-stack-react-app-on-aws.md)
+
 ## Azure DevOps
 
 * [Create a nuget package and publish it to Azure Devops Repository](azure-devops/create-a-nuget-package-and-publish-it-to-azure-devops-repository.md)
@@ -85,9 +89,9 @@
 * [Nightly batch run on Azure DevOps Pipeline](azure-devops/nightly-batch-run-on-azure-devops-pipeline.md)
 * [Untitled](azure-devops/untitled.md)
 
-## AWS Amplify
+## Azure Storage Account
 
-* [Build and deploy a full-stack react app on AWS](aws-amplify/build-and-deploy-a-full-stack-react-app-on-aws.md)
+* [Upload and download file to and from Storage account](azure-storage-account/upload-and-download-file-to-and-from-storage-account.md)
 
 ## Data
 
