@@ -26,6 +26,29 @@ func main() {
 
 To run it, do `go run hello.go` 
 
+### conditionals
+
+```go
+// if else
+func NewName(fname string, lname string) *Name {
+	name := new(Name)
+	if len(fname) > 20 {
+		name.fname = fname[:20]
+	} else {
+		name.fname = fname
+	}
+
+	if len(lname) > 20 {
+		name.lname = lname[:20]
+	} else {
+		name.lname = lname
+	}
+
+	return name
+}
+
+```
+
 ### handling strings
 
 ```go
@@ -63,6 +86,23 @@ func main() {
 
 bufio is to receive user input that includes space. string is a collection of character. \[0:10\] syntax was really powerful.
 
+### iterations
+
+```go
+// for range
+var names []Name
+for fileScanner.Scan() {
+	nameArr := strings.Split(fileScanner.Text(), " ")
+	name := NewName(nameArr[0], nameArr[1])
+	names = append(names, *name)
+}
+
+for _, name := range names {
+	fmt.Printf("%s %s\n", name.fname, name.lname)
+}
+
+```
+
 ### json
 
 ```go
@@ -98,6 +138,20 @@ user["address"] = scanner.Text()
 
 ```
 
+### slice
+
+a dynamically-sized flexible view into the elements of an array
+
+```go
+var names []Name
+for fileScanner.Scan() {
+	nameArr := strings.Split(fileScanner.Text(), " ")
+	name := NewName(nameArr[0], nameArr[1])
+	names = append(names, *name)
+}
+
+```
+
 ### string
 
 ```go
@@ -109,6 +163,10 @@ func NewName(fname string, lname string) *Name {
 
 	return name
 }
+
+// split
+nameArr := strings.Split(fileScanner.Text(), " ")
+name := NewName(nameArr[0], nameArr[1])
 
 ```
 
