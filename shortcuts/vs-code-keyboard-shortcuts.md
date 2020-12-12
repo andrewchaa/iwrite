@@ -4,10 +4,10 @@
 | :--- | :--- | :--- |
 | alt + shft + mouse |  | column select |
 | ctrl + \` |  | show terminal window |
-| F12 |  | go to the definition |
+| f12 |  | go to the definition |
 | shft + alt +  **↓** |  | duplicate the line |
 |  | ⇧ + ⌘ + space | show parameter hint |
-| F2 |  | rename a symbol |
+| f2 |  | rename a symbol |
 
 
 
