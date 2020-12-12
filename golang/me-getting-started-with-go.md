@@ -91,5 +91,9 @@ Scanln accepts user input. Yet it can't handle space so you need to use bufio if
 
 #### user input
 
-
+```go
+var firstname string
+fmt.Println("your firstname: ")
+fmt.Scanln(&firstname)
+```
 
