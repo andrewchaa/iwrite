@@ -42,7 +42,6 @@
 * [My favourite Git commands](my-favourite-git-commands.md)
 * [Adding a custom endpoint to AWS Amplify API](adding-a-custom-endpoint-to-aws-amplify-api.md)
 * [Using Amplify CLI](using-amplify-cli.md)
-* [VS Code Keyboard Shortcuts](vs-code-keyboard-shortcuts.md)
 * [Provision Azure Key Vault with Terraform](provision-azure-key-vault-with-terraform.md)
 * [Typed Configuration in ASP.NET Core](typed-configuration-in-asp.net-core.md)
 * [Provision DynamoDb with serverless.yml](provision-dynamodb-with-serverless.yml.md)
@@ -111,6 +110,7 @@
 ## Shortcuts
 
 * [Visual Studio shortcuts](shortcuts/visual-studio-shortcuts.md)
+* [VS Code](shortcuts/vs-code-keyboard-shortcuts.md)
 
 ## Drafts
 
