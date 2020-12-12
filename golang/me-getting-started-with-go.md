@@ -98,6 +98,20 @@ user["address"] = scanner.Text()
 
 ```
 
+### string
+
+```go
+// cut up to the length
+func NewName(fname string, lname string) *Name {
+	name := new(Name)
+	name.fname = fname[:20]
+	name.lname = lname[:20]
+
+	return name
+}
+
+```
+
 ### struct
 
 `struct` is a typed collection of fields, usefl for grouping data together to form records
