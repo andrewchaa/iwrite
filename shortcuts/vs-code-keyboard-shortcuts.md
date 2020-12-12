@@ -6,7 +6,7 @@
 | ctrl + \` |  | show terminal window |
 | F12 |  | go to the definition |
 | shft + alt +  **↓** |  | duplicate the line |
-|  | shft + cmd + space | show parameter hint |
+|  | ⇧ + ⌘ + space | show parameter hint |
 
 
 
