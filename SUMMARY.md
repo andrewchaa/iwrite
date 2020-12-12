@@ -64,10 +64,7 @@
 * [git credential manager](git-credential-manager.md)
 * [LED Tube lamp](led-tube-lamp.md)
 * [C\# LINQ in the wild](c-linq-in-the-wild.md)
-* [Setting up Go environment](setting-up-go-environment.md)
-* [Learning Go through a course in Coursera](me-getting-started-with-go.md)
 * [Publish my github documents as blog posts](publish-my-github-documents-as-blog-posts.md)
-* [Moving blog engine to Hugo](moving-blog-engine-to-hugo.md)
 * [Setting up my Mac](setting-up-my-macbook-pro.md)
 * [My favourite Libraries and Frameworks](my-favourite-libraries-and-frameworks.md)
 * [Templating with scriban](templating-with-scriban.md)
@@ -97,6 +94,12 @@
 
 * [Using dapper with sqlite](data/using-dapper-with-in-memory-sqlite.md)
 * [Sql queries I use](data/sql-queries-i-use.md)
+
+## Golang
+
+* [Learning Go through a course in Coursera](golang/me-getting-started-with-go.md)
+* [Moving blog engine to Hugo](golang/moving-blog-engine-to-hugo.md)
+* [Setting up Go environment](golang/setting-up-go-environment.md)
 
 ## React
 
