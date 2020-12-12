@@ -7,6 +7,7 @@
 | F12 |  | go to the definition |
 | shft + alt +  **↓** |  | duplicate the line |
 |  | ⇧ + ⌘ + space | show parameter hint |
+| F2 |  | rename a symbol |
 
 
 
