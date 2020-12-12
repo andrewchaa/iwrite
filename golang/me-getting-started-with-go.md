@@ -91,9 +91,29 @@ Scanln accepts user input. Yet it can't handle space so you need to use bufio if
 
 #### user input
 
+simple string without space
+
 ```go
 var firstname string
 fmt.Println("your firstname: ")
 fmt.Scanln(&firstname)
+```
+
+If you the input has space in the middle, use Scanner
+
+```go
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
+
+func main() {
+	scanner := bufio.NewScanner(os.Stdin)
+
+	fmt.Println("Enter your name")
+	scanner.Scan()
+	name := scanner.Text()
+}
 ```
 
