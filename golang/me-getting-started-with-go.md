@@ -26,32 +26,6 @@ func main() {
 
 To run it, do `go run hello.go` 
 
-
-
-### truncate fractional digits to int value
-
-By doing this assignment, I learned stdin, number conversion, and Println format.
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	var input float64
-	var number int
-
-	fmt.Println("Enter your floating number")
-	fmt.Scanln(&input)
-
-	number = int(input)
-	fmt.Printf("Your int value is %d\n", number)
-}
-
-```
-
-Scanln accepts user input. Yet it can't handle space so you need to use bufio if the input has any space in it. 
-
 ### handling strings
 
 ```go
@@ -88,6 +62,34 @@ func main() {
 ```
 
 bufio is to receive user input that includes space. string is a collection of character. \[0:10\] syntax was really powerful.
+
+
+
+### truncate fractional digits to int value
+
+By doing this assignment, I learned stdin, number conversion, and Println format.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var input float64
+	var number int
+
+	fmt.Println("Enter your floating number")
+	fmt.Scanln(&input)
+
+	number = int(input)
+	fmt.Printf("Your int value is %d\n", number)
+}
+
+```
+
+Scanln accepts user input. Yet it can't handle space so you need to use bufio if the input has any space in it. 
+
+#### user input
 
 
 
