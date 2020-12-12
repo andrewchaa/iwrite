@@ -35,10 +35,8 @@
 * [Access HttpContext inside a service](access-httpcontext-inside-a-service.md)
 * [Killing a Process in Windows 10](killing-a-process-in-windows-10.md)
 * [Windows 10 Tips and Tricks](windows-10-tips-and-tricks.md)
-* [Windows Explorer Keyboard Shortcuts](windows-explorer-keyboard-shortcuts.md)
 * [ASP.NET MVC Custom Action Filters](asp.net-mvc-custom-action-filters.md)
 * [Creating a test Subscription to Azure Service Bus Topic](creting-a-test-subscription-to-azure-service-bus-topic.md)
-* [Rider keyboard shortcuts](rider-keyboard-shortcuts.md)
 * [My favourite Git commands](my-favourite-git-commands.md)
 * [Adding a custom endpoint to AWS Amplify API](adding-a-custom-endpoint-to-aws-amplify-api.md)
 * [Using Amplify CLI](using-amplify-cli.md)
@@ -110,7 +108,9 @@
 ## Shortcuts
 
 * [Visual Studio shortcuts](shortcuts/visual-studio-shortcuts.md)
-* [VS Code](shortcuts/vs-code-keyboard-shortcuts.md)
+* [Windows Explorer Keyboard Shortcuts](shortcuts/windows-explorer-keyboard-shortcuts.md)
+* [Rider keyboard shortcuts](shortcuts/rider-keyboard-shortcuts.md)
+* [VS Code Shortcuts](shortcuts/vs-code-keyboard-shortcuts.md)
 
 ## Drafts
 
