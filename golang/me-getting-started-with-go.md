@@ -98,6 +98,19 @@ user["address"] = scanner.Text()
 
 ```
 
+### struct
+
+`struct` is a typed collection of fields, usefl for grouping data together to form records
+
+```go
+type person struct {
+    name string
+    age  int
+}
+
+s := person{name: "Sean", age: 50}
+```
+
 ### truncate fractional digits to int value
 
 By doing this assignment, I learned stdin, number conversion, and Println format.
