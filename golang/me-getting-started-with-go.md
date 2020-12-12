@@ -63,7 +63,21 @@ func main() {
 
 bufio is to receive user input that includes space. string is a collection of character. \[0:10\] syntax was really powerful.
 
+### map
 
+```go
+scanner := bufio.NewScanner(os.Stdin)
+user := make(map[string]string)
+
+fmt.Println("Enter your name")
+scanner.Scan()
+user["name"] = scanner.Text()
+
+fmt.Println("Enter your address")
+scanner.Scan()
+user["address"] = scanner.Text()
+
+```
 
 ### truncate fractional digits to int value
 
