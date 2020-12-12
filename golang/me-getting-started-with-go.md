@@ -89,7 +89,7 @@ func main() {
 
 Scanln accepts user input. Yet it can't handle space so you need to use bufio if the input has any space in it. 
 
-#### user input
+### user input
 
 simple string without space
 
