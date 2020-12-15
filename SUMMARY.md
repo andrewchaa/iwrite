@@ -98,6 +98,10 @@
 * [Moving blog engine to Hugo](golang/moving-blog-engine-to-hugo.md)
 * [Setting up Go environment](golang/setting-up-go-environment.md)
 
+## Powershell
+
+* [Powershell tips](powershell/untitled.md)
+
 ## React
 
 * [React Native TextInput](react/react-native-textinput.md)
