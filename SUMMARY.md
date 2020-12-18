@@ -24,7 +24,6 @@
 * [Mocking Cosmos Container method for unit testing](mocking-cosmos-container-method-for-unit-testing.md)
 * [Global error handling in ASP.NET Core web APIs](global-error-handling-in-asp.net-core-web-apis.md)
 * [Setting Windows Terminal Starting Directory](setting-windows-terminal-starting-directory.md)
-* [Sending a ServiceBus message in an integrated test](sending-a-servicebus-message-in-an-integrated-test.md)
 * [Serialize and deserialize enum as string with System.Text.Json](serialize-and-deserialize-enum-as-string-with-system.text.json.md)
 * [Serverless Framework Deployment failing after deleting API Gateway on AWS](serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws.md)
 * [Generating a new blog post with a markdown file](generating-a-new-blog-post-with-a-markdown-file.md)
@@ -82,6 +81,11 @@
 * [Conditional Build on Azure Devops Pipeline](azure-devops/conditional-build-on-azure-devops-pipeline.md)
 * [Nightly batch run on Azure DevOps Pipeline](azure-devops/nightly-batch-run-on-azure-devops-pipeline.md)
 * [Untitled](azure-devops/untitled.md)
+
+## Azure Service Bus
+
+* [Sending a ServiceBus message in an integrated test](azure-service-bus/sending-a-servicebus-message-in-an-integrated-test.md)
+* [Retrieving Topics and Subscriptions from Azure Service Bus](azure-service-bus/retrieving-topics-and-subscriptions-from-azure-service-bus.md)
 
 ## Azure Storage Account
 
