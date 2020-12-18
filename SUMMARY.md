@@ -94,7 +94,7 @@
 ## Data
 
 * [Using dapper with sqlite](data/using-dapper-with-in-memory-sqlite.md)
-* [Sql queries I use](data/sql-queries-i-use.md)
+* [Sql queries I use for SQLite](data/sql-queries-i-use.md)
 
 ## Golang
 
