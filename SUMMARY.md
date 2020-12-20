@@ -3,7 +3,6 @@
 * [I exists 'cause I write](README.md)
 * [Static website hosting in Azure Blob Storage](static-website-hosting-in-azure-blob-storage.md)
 * [Deploy Service Fabric type when one of its services needs deletion](deploy-service-fabric-type-when-one-of-its-services-needs-deletion.md)
-* [Serverless CI/CD with AWS CodePipeline](serverless-ci-cd-with-aws-codepipeline.md)
 * [Service Fabric skeleton service](service-fabric-skeleton-service.md)
 * [How I'm setting my Windows developer machine](how-im-setting-windows-developer-machine.md)
 * [Logging on AWS Lambda with .NET Core](logging-on-aws-lambda-with-.net-core.md)
@@ -25,7 +24,6 @@
 * [Global error handling in ASP.NET Core web APIs](global-error-handling-in-asp.net-core-web-apis.md)
 * [Setting Windows Terminal Starting Directory](setting-windows-terminal-starting-directory.md)
 * [Serialize and deserialize enum as string with System.Text.Json](serialize-and-deserialize-enum-as-string-with-system.text.json.md)
-* [Serverless Framework Deployment failing after deleting API Gateway on AWS](serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws.md)
 * [Generating a new blog post with a markdown file](generating-a-new-blog-post-with-a-markdown-file.md)
 * [Fail the deserializatioin of JSON string if any expected properties don't exist](fail-the-deserializatioin-of-json-string-if-any-expected-properties-dont-exist.md)
 * [List active \(pending\) Pull Requests on Microsoft Teams chat room](list-active-pending-pull-requests-on-microsoft-teams-chat-room.md)
@@ -41,10 +39,8 @@
 * [Using Amplify CLI](using-amplify-cli.md)
 * [Provision Azure Key Vault with Terraform](provision-azure-key-vault-with-terraform.md)
 * [Typed Configuration in ASP.NET Core](typed-configuration-in-asp.net-core.md)
-* [Provision DynamoDb with serverless.yml](provision-dynamodb-with-serverless.yml.md)
 * [Encryption and Hashing](encryption-and-hashing.md)
 * [Managed Identity @ Azure](managed-identity-azure.md)
-* [Provision S3 Bucket with serverless.yml](provision-s3-bucket-with-serverless.yml.md)
 * [Provision Azure Storage with Terraform](provision-azure-storage-with-terraform.md)
 * [Encrypt a sensitive information with Azure Key Vault](encrypt-a-sensitive-information-with-azure-key-vault.md)
 * [Prettify JSON with C\#](prettify-json-with-c.md)
@@ -112,7 +108,6 @@
 
 ## React
 
-* [React Native TextInput](react/react-native-textinput.md)
 * [Calling the parent's function from a child component in React](react/calling-the-parents-function-from-a-child-component-in-react.md)
 * [React Navigation in my code](react/react-navigation.md)
 * [error listen EADDRINUSE: address already in use :::8081](react/error-listen-eaddrinuse-address-already-in-use-8081.md)
@@ -120,6 +115,15 @@
 ## Regular Expressions
 
 * [Comman regular expression patterns](regular-expressions/comman-regular-expression-patterns.md)
+
+## Serverless
+
+* [Provision S3 Bucket with serverless.yml](serverless/provision-s3-bucket-with-serverless.yml.md)
+* [Serverless Framework Deployment failing after deleting API Gateway on AWS](serverless/serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws.md)
+* [Provision DynamoDb with serverless.yml](serverless/provision-dynamodb-with-serverless.yml.md)
+* [React Native TextInput](serverless/react-native-textinput.md)
+* [Serverless CI/CD with AWS CodePipeline](serverless/serverless-ci-cd-with-aws-codepipeline.md)
+* [Create a lambda function that's called on AWS SNS topic message](serverless/create-a-lambda-function-thats-called-on-aws-sns-topic-message.md)
 
 ## Shortcuts
 
@@ -132,8 +136,4 @@
 
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
 * [Application Insight on Service Fabric Worker Process](drafts/application-insight-on-service-fabric-worker-process.md)
-
-## Serverless
-
-* [Create a lambda function that's called on AWS SNS topic message](serverless/create-a-lambda-function-thats-called-on-aws-sns-topic-message.md)
 
