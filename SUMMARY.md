@@ -111,6 +111,7 @@
 * [Calling the parent's function from a child component in React](react/calling-the-parents-function-from-a-child-component-in-react.md)
 * [React Navigation in my code](react/react-navigation.md)
 * [error listen EADDRINUSE: address already in use :::8081](react/error-listen-eaddrinuse-address-already-in-use-8081.md)
+* [React Native TextInput](react/react-native-textinput.md)
 
 ## Regular Expressions
 
@@ -121,7 +122,6 @@
 * [Provision S3 Bucket with serverless.yml](serverless/provision-s3-bucket-with-serverless.yml.md)
 * [Serverless Framework Deployment failing after deleting API Gateway on AWS](serverless/serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws.md)
 * [Provision DynamoDb with serverless.yml](serverless/provision-dynamodb-with-serverless.yml.md)
-* [React Native TextInput](serverless/react-native-textinput.md)
 * [Serverless CI/CD with AWS CodePipeline](serverless/serverless-ci-cd-with-aws-codepipeline.md)
 * [Create a lambda function that's called on AWS SNS topic message](serverless/create-a-lambda-function-thats-called-on-aws-sns-topic-message.md)
 
