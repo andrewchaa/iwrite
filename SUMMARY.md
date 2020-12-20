@@ -102,6 +102,10 @@
 * [Moving blog engine to Hugo](golang/moving-blog-engine-to-hugo.md)
 * [Setting up Go environment](golang/setting-up-go-environment.md)
 
+## iOS
+
+* [Managing certificate to publish an iOS app](ios/managing-certificate-to-publish-an-ios-app.md)
+
 ## Powershell
 
 * [Powershell tips](powershell/untitled.md)
