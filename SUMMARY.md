@@ -76,7 +76,7 @@
 * [Azure DevOps Build Pipeline](azure-devops/azure-devops-build-pipeline.md)
 * [Conditional Build on Azure Devops Pipeline](azure-devops/conditional-build-on-azure-devops-pipeline.md)
 * [Nightly batch run on Azure DevOps Pipeline](azure-devops/nightly-batch-run-on-azure-devops-pipeline.md)
-* [Untitled](azure-devops/untitled.md)
+* [Connecting to Service Bus from Azure DevOps Pipeline](azure-devops/untitled.md)
 
 ## Azure Service Bus
 
