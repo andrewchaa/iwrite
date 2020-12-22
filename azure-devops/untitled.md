@@ -14,7 +14,7 @@ Let's create terraform scripts to provision the Azure AD application and princip
 ```text
 # locals.tf
 locals {
-  domainevent_cli_name = lower("${var.environment}-servicebus-domainevent-cli")
+  cli_name = lower("${var.environment}-servicebus-domainevent-cli")
 }
 
 ```
