@@ -9,34 +9,36 @@ First, Install package.
 The below is a modified version of the quick example. I've added async and await as most of the time, I need async methods.
 
 ```csharp
-using System;
-using CommandLine;
-
-namespace QuickStart
+public class Options
 {
-    class Program
-    {
-        public class Options
-        {
-            [Option('c', "cmd", Required = false, HelpText = "Your choice of command")]
-            public string Command { get; set; }
-        }
-
-        static async Task Main(string[] args)
-        {
-            await Parser.Default.ParseArguments<Options>(args)
-                .WithParsedAsync<Options>(async o =>
-            {
-                if (string.IsNullOrEmpty(o.Command))
-                {
-                    Console.WriteLine("Examples: \n");
-                    Console.WriteLine("dotnet run --cmd add-domains");
-                    Console.WriteLine("");
-                }
-            });
-        }
-    }
+    [Option('c', "cmd", Required = false, HelpText = "your command to run")]
+    public string Command { get; set; }
 }
+```
+
+```csharp
+private const string Pull = "pull";
+
+static async Task Main(string[] args)
+{
+    await Parser.Default.ParseArguments<Options>(args)
+        .WithParsedAsync(async x =>
+        {
+            if (string.IsNullOrEmpty(x.Command))
+            {
+                Console.WriteLine("Usage: \n");
+                Console.WriteLine("dotnet run");
+                Console.WriteLine($"  --cmd {Pull}     to pull all your posts from the github repository");
+                return;
+            }
+
+            if (x.Command == Pull)
+            {
+                
+            }
+        });
+}
+
 ```
 
 To help other users than me, it's good to show some examples. So if the command option is not give, I show some examples. 
