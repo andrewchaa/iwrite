@@ -20,7 +20,8 @@ public class Startup
 #endif
         var config = configBuilder.Build();
         Services.Configure<GithubOptions>(config.GetSection("Github"));
-
+        
+        Services.AddMediatR(typeof(PullPostsCommand).Assembly);
         return Services;
     }
 
