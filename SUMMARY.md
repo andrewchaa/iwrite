@@ -92,6 +92,10 @@
 * [Using dapper with sqlite](data/using-dapper-with-in-memory-sqlite.md)
 * [Sql queries I use for SQLite](data/sql-queries-i-use.md)
 
+## Dotnet Core
+
+* [Register all your services to IServiceCollection](dotnet-core/register-all-your-services-to-iservicecollection.md)
+
 ## Github
 
 * [Authenticate Github API with OAuth flow](github/authenticate-github-api-with-oauth-flow.md)
