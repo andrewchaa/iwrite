@@ -34,3 +34,7 @@ public class Startup
 
 ```
 
+#### Environment Variables
+
+On Mac, `printenv` will show all available environment variables. 
+
