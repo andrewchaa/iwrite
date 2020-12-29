@@ -56,7 +56,6 @@
 * [git credential manager](git-credential-manager.md)
 * [LED Tube lamp](led-tube-lamp.md)
 * [C\# LINQ in the wild](c-linq-in-the-wild.md)
-* [Publish my github documents as blog posts](publish-my-github-documents-as-blog-posts.md)
 * [Setting up my Mac](setting-up-my-macbook-pro.md)
 * [My favourite Libraries and Frameworks](my-favourite-libraries-and-frameworks.md)
 * [Templating with scriban](templating-with-scriban.md)
@@ -98,7 +97,8 @@
 
 ## Github
 
-* [Authenticate Github API with OAuth flow](github/authenticate-github-api-with-oauth-flow.md)
+* [Using Github APIs to pull posts and to convert them to blog posts](github/authenticate-github-api-with-oauth-flow.md)
+* [Publish my github documents as blog posts](github/publish-my-github-documents-as-blog-posts.md)
 
 ## Golang
 
