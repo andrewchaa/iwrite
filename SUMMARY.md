@@ -144,6 +144,7 @@
 
 ## Shortcuts
 
+* [Google Docs Shortcuts](shortcuts/google-docs-shortcuts.md)
 * [Visual Studio shortcuts](shortcuts/visual-studio-shortcuts.md)
 * [Windows Explorer Keyboard Shortcuts](shortcuts/windows-explorer-keyboard-shortcuts.md)
 * [Rider keyboard shortcuts](shortcuts/rider-keyboard-shortcuts.md)
