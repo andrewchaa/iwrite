@@ -10,7 +10,11 @@ https://dev.azure.com/{organization}/{project}/_apis/build/definitions
   &includeLatestBuilds=true
 ```
 
-Yet the response of the api call was 400, Bad Request. I had to pass `repositoryType`
+Yet the response of the api call was 400, Bad Request. 
+
+![](../.gitbook/assets/image%20%2826%29.png)
+
+I had to pass `repositoryType`
 
 Yes, Azure DevOps was VSTS before and it had its own remoting-based source control, TFS. It supports multiple types of repository, including git and svn. So, it's not suprprising it requires repository type. Still, `repositoryId` is a unique identifier and DevOps should be able to locate it. Maybe `repositoryType` is an index in their database and it makes it much easier and cost-saving for them to have it in the query. 
 
