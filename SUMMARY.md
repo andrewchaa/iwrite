@@ -76,6 +76,7 @@
 * [Conditional Build on Azure Devops Pipeline](azure-devops/conditional-build-on-azure-devops-pipeline.md)
 * [Nightly batch run on Azure DevOps Pipeline](azure-devops/nightly-batch-run-on-azure-devops-pipeline.md)
 * [Connecting to Service Bus from Azure DevOps Pipeline](azure-devops/untitled.md)
+* [repositoryType parameter in Azure DevOps API](azure-devops/repositorytype-parameter-in-azure-devops-api.md)
 
 ## Azure Service Bus
 
