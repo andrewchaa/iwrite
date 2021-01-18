@@ -152,6 +152,10 @@
 * [Rider keyboard shortcuts](shortcuts/rider-keyboard-shortcuts.md)
 * [VS Code Shortcuts](shortcuts/vs-code-keyboard-shortcuts.md)
 
+## System Design
+
+* [Using a North Star to guide emergent architecture](system-design/using-a-north-star-to-guide-emergent-architecture.md)
+
 ## Drafts
 
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
