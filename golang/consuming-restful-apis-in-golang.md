@@ -49,5 +49,21 @@ services:
       - VAULT_DEV_ROOT_TOKEN_ID=8fb95528-57c6-422e-9722-d2147bcba8ed
 ```
 
-As I have the yaml, I'd love to lanuch the docker image, but a few things before I get to the point. I need to [install Docker Desktop on my Mac](https://docs.docker.com/docker-for-mac/install/). 
+As I have the yaml, I'd love to lanuch the docker image, but a few things before I get to the point. I need to [install Docker Desktop on my Mac](https://docs.docker.com/docker-for-mac/install/). Once installed, run `docker-compose up` to run the docker
+
+You can connect to the docker image interactively
+
+```bash
+docker exec -it 7cb277649098b3ae /bin/sh; exit
+psql
+```
+
+When I ran the docker image, it had errors saying, "password authentication failed for user 'interview\_accountapi\_user'". I had to create the database and the user by connecting to the docker image and running the commands to create user
+
+```text
+CREATE USER interview_accountapi_user WITH PASSWORD '***';
+CREATE DATABASE interview_accountapi OWNER interview_accountapi_user;
+```
+
+
 
