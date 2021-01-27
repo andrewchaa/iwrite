@@ -55,3 +55,13 @@ You can define request parameters, so that the function can parse a part of the 
 * `cors` matters as `put` is not a safe method and you need `cors` to make an api call from your javascript application.
 * `private` means it's using an API key.
 
+If you define request parameter, you can get the value from request's PathParameters collection
+
+```csharp
+public async Task<APIGatewayProxyResponse> WarrantyPut(
+    APIGatewayProxyRequest request)
+{
+    var serialNumber = request.PathParameters["serialNumber"];
+
+```
+
