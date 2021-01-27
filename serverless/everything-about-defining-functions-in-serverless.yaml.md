@@ -27,8 +27,6 @@ The `handler`'s format is `[Assembly Name]::[Full Name of the Class]::[Method Na
 | KeidApis.Apis.Controllers.AnnouncementsController | the full class name |
 | List | the method name |
 
-
-
 ### HTTP uri with request parameters
 
 You can define request parameters, so that the function can parse a part of the uri and use it as parameter.
@@ -51,4 +49,9 @@ You can define request parameters, so that the function can parse a part of the 
           private: true
 
 ```
+
+* {serialNumber} is the request parameter
+* `true` means it's a mandatory parameter. The API Gateway will throw an exceptioin if the parameter is not in the url.
+* `cors` matters as `put` is not a safe method and you need `cors` to make an api call from your javascript application.
+* `private` means it's using an API key.
 
