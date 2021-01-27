@@ -143,6 +143,7 @@
 * [Provision DynamoDb with serverless.yml](serverless/provision-dynamodb-with-serverless.yml.md)
 * [Serverless CI/CD with AWS CodePipeline](serverless/serverless-ci-cd-with-aws-codepipeline.md)
 * [Create a lambda function that's called on AWS SNS topic message](serverless/create-a-lambda-function-thats-called-on-aws-sns-topic-message.md)
+* [Everything about defining functions in serverless.yaml](serverless/everything-about-defining-functions-in-serverless.yaml.md)
 
 ## Shortcuts
 
