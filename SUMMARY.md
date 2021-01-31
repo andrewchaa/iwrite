@@ -77,6 +77,7 @@
 * [Nightly batch run on Azure DevOps Pipeline](azure-devops/nightly-batch-run-on-azure-devops-pipeline.md)
 * [Connecting to Service Bus from Azure DevOps Pipeline](azure-devops/untitled.md)
 * [repositoryType parameter in Azure DevOps API](azure-devops/repositorytype-parameter-in-azure-devops-api.md)
+* [Use resources I come across while coding, reading, and thinking \(if I do\)](azure-devops/use-resources-i-come-across-while-coding-reading-and-thinking-if-i-do.md)
 
 ## Azure Service Bus
 
