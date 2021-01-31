@@ -144,6 +144,7 @@
 * [Serverless CI/CD with AWS CodePipeline](serverless/serverless-ci-cd-with-aws-codepipeline.md)
 * [Create a lambda function that's called on AWS SNS topic message](serverless/create-a-lambda-function-thats-called-on-aws-sns-topic-message.md)
 * [Everything about defining functions in serverless.yaml](serverless/everything-about-defining-functions-in-serverless.yaml.md)
+* [Upload a file to S3 bucket using serverless lambda in C\#](serverless/upload-a-file-to-s3-bucket-using-serverless-lambda-in-c.md)
 
 ## Shortcuts
 
