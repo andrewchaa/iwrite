@@ -1,6 +1,7 @@
 # Table of contents
 
 * [I exists 'cause I write](README.md)
+* [Online resources I come across while coding, reading, and thinking \(if I do\)](use-resources-i-come-across-while-coding-reading-and-thinking-if-i-do.md)
 * [Static website hosting in Azure Blob Storage](static-website-hosting-in-azure-blob-storage.md)
 * [Deploy Service Fabric type when one of its services needs deletion](deploy-service-fabric-type-when-one-of-its-services-needs-deletion.md)
 * [Service Fabric skeleton service](service-fabric-skeleton-service.md)
@@ -77,7 +78,6 @@
 * [Nightly batch run on Azure DevOps Pipeline](azure-devops/nightly-batch-run-on-azure-devops-pipeline.md)
 * [Connecting to Service Bus from Azure DevOps Pipeline](azure-devops/untitled.md)
 * [repositoryType parameter in Azure DevOps API](azure-devops/repositorytype-parameter-in-azure-devops-api.md)
-* [Use resources I come across while coding, reading, and thinking \(if I do\)](azure-devops/use-resources-i-come-across-while-coding-reading-and-thinking-if-i-do.md)
 
 ## Azure Service Bus
 
