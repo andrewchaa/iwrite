@@ -146,6 +146,7 @@
 * [Create a lambda function that's called on AWS SNS topic message](serverless/create-a-lambda-function-thats-called-on-aws-sns-topic-message.md)
 * [Everything about defining functions in serverless.yaml](serverless/everything-about-defining-functions-in-serverless.yaml.md)
 * [Upload a file to S3 bucket using serverless lambda in C\#](serverless/upload-a-file-to-s3-bucket-using-serverless-lambda-in-c.md)
+* [Build CI/CD pipeline for serverless by using Github Action](serverless/build-ci-cd-pipeline-for-serverless-by-using-github-action.md)
 
 ## Shortcuts
 
