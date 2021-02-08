@@ -54,6 +54,44 @@ As it's a public bucket, it allows `s3:GetObject` to everyone \(`Principal:'*'`\
 
 ### Pre-signed url
 
+It's much easier and hassle-free to use presigned request to S3 to upload files. API Gateway is not really for uploading binary blob.
+
+![Using Presigned Request Url](../.gitbook/assets/image%20%2827%29.png)
+
+```csharp
+public APIGatewayProxyResponse Post(APIGatewayProxyRequest proxyRequest)
+{
+   var (request, err) = proxyRequest.Body.Deserialize<AttachmentRequest>();
+   if (err != null)
+   {
+       return BadRequest(err.Message);
+   }
+
+   Console.WriteLine($"Received upload attachment request, {request.ToJson()}");
+   
+   var key = $"{Guid.NewGuid()}.{request.Filename}";
+   var s3Client = new AmazonS3Client(RegionEndpoint.EUCentral1);
+   var urlRequest = new GetPreSignedUrlRequest
+   {
+      BucketName = Buckets.Attachments,
+      Key = key,
+      Verb = HttpVerb.PUT,
+      Expires = DateTime.UtcNow.AddMinutes(1)
+   };
+
+   var signedUrl = s3Client.GetPreSignedURL(urlRequest);
+
+   return Ok(new
+   {
+      Key = key, 
+      ObjectUrl = $"https://{urlRequest.BucketName}.s3.eu-central-1.amazonaws.com/{key}",
+      SignedUrl = signedUrl
+   });
+  
+}
+
+```
+
 
 
 
