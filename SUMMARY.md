@@ -35,7 +35,6 @@
 * [Windows 10 Tips and Tricks](windows-10-tips-and-tricks.md)
 * [ASP.NET MVC Custom Action Filters](asp.net-mvc-custom-action-filters.md)
 * [Creating a test Subscription to Azure Service Bus Topic](creting-a-test-subscription-to-azure-service-bus-topic.md)
-* [My favourite Git commands](my-favourite-git-commands.md)
 * [Adding a custom endpoint to AWS Amplify API](adding-a-custom-endpoint-to-aws-amplify-api.md)
 * [Using Amplify CLI](using-amplify-cli.md)
 * [Provision Azure Key Vault with Terraform](provision-azure-key-vault-with-terraform.md)
@@ -105,6 +104,7 @@
 
 * [Using Github APIs to pull posts and to convert them to blog posts](github/authenticate-github-api-with-oauth-flow.md)
 * [Publish my github documents as blog posts](github/publish-my-github-documents-as-blog-posts.md)
+* [My favourite Git commands](github/my-favourite-git-commands.md)
 
 ## Golang
 
