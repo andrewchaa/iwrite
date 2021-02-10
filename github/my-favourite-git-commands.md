@@ -9,7 +9,7 @@ git checkout --track origin/feature/postcode
 
 
 # clone with a directory name
-git clone ... <directory name>
+git clone <git address> <directory name>
 
 # pull the latest commits and merge them into the current branch
 git pull
