@@ -148,6 +148,7 @@
 * [Upload a file to S3 bucket using serverless lambda in C\#](serverless/upload-a-file-to-s3-bucket-using-serverless-lambda-in-c.md)
 * [Build CI/CD pipeline for serverless by using Github Action](serverless/build-ci-cd-pipeline-for-serverless-by-using-github-action.md)
 * [Cognito userpool as authorizer of your lambda in serverless](serverless/cognito-userpool-as-authorizer-of-your-lambda-in-serverless.md)
+* [Auto-increment counter in dynamodb](serverless/auto-increment-counter-in-dynamodb.md)
 
 ## Shortcuts
 
