@@ -77,6 +77,7 @@
 * [Nightly batch run on Azure DevOps Pipeline](azure-devops/nightly-batch-run-on-azure-devops-pipeline.md)
 * [Connecting to Service Bus from Azure DevOps Pipeline](azure-devops/untitled.md)
 * [repositoryType parameter in Azure DevOps API](azure-devops/repositorytype-parameter-in-azure-devops-api.md)
+* [Print all environment variables in Azure DevOps pipeline](azure-devops/print-all-environment-variables-in-azure-devops-pipeline.md)
 
 ## Azure Service Bus
 
