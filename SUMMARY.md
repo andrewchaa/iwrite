@@ -91,6 +91,7 @@
 ## CSharp
 
 * [Copy all files in directory in C\#](csharp/copy-all-files-in-directory-in-c.md)
+* [Deserializing yaml file in C\#](csharp/deserializing-yaml-file-in-c.md)
 
 ## Data
 
