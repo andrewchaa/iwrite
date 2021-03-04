@@ -13,6 +13,8 @@
 * As task is a pre-packged script that performs an action, such as invoking a REST API or publishing a build artifact.
 * An artifact is a collection of files or packages published by a run.
 
+## Jobs
+
 ### CI build to create artifacts
 
 ```yaml
@@ -92,9 +94,56 @@ jobs:
         displayName: add build tag
 ```
 
+### Run tests
+
+```yaml
+name: $(Build.DefinitionName)_$(SourceBranchName)_$(Date:yyyyMMdd)$(Rev:.r)
+parameters:
+  - name: dotnet_version
+    type: string
+    default: 3.x
+  - name: test_projects
+    type: string
+    default: "**/*.Tests.csproj"
+  - name: build_platform
+    type: string
+    default: x64
+
+stages:
+  - stage: runtests
+    jobs:
+      - job: run deserialization tests
+        pool:
+          vmImage: windows-2019
+        steps:
+          - task: UseDotNet@2
+            displayName: Use dotnet Version ${{ parameters.dotnet_version }}
+            inputs:
+              packageType: sdk
+              version: ${{ parameters.dotnet_version }}
+          - task: DotNetCoreCLI@2
+            displayName: NuGet Restore
+            inputs:
+              command: restore
+              projects: ${{ parameters.test_projects }}
+              feedsToUse: select
+              noCache: true
+          - task: DotNetCoreCLI@2
+            displayName: dotnet Test
+            inputs:
+              command: test
+              projects: ${{ parameters.test_projects }}
+              publishTestResults: true
+              arguments: --no-build -c Release /p:Platform=${{ parameters.build_platform }}
+
+
+```
+
 ## Approvals, checks, and gates
 
 ### Gate
 
 Gates allow you to configure automated calls to external services, where the results are used to approve or reject a deployment. 
+
+
 
