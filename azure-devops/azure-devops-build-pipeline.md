@@ -134,7 +134,7 @@ stages:
               command: test
               projects: ${{ parameters.test_projects }}
               publishTestResults: true
-              arguments: --no-build -c Release /p:Platform=${{ parameters.build_platform }}
+              arguments: -c Release /p:Platform=${{ parameters.build_platform }}
 
 
 ```
