@@ -139,6 +139,17 @@ stages:
 
 ```
 
+#### Build step with multiline script
+
+from [https://stackoverflow.com/questions/60391458/azure-pipeline-multiline-script](https://stackoverflow.com/questions/60391458/azure-pipeline-multiline-script) 
+
+```text
+steps:
+- script: |
+    echo "good"
+    echo "nice"
+```
+
 ## Approvals, checks, and gates
 
 ### Gate
