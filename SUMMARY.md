@@ -164,6 +164,10 @@
 
 * [Using a North Star to guide emergent architecture](system-design/using-a-north-star-to-guide-emergent-architecture.md)
 
+## Testing
+
+* [Asserting on Collelctions on NUnit](testing/asserting-on-collelctions-on-nunit.md)
+
 ## Drafts
 
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
