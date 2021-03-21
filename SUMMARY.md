@@ -140,6 +140,7 @@
 
 ## Serverless
 
+* [Fail the serverless deployment if any test fails](serverless/fail-the-serverless-deployment-if-any-test-fails.md)
 * [Getting started with Serverless framework in c\#](serverless/getting-started-with-serverless-framework-in-c.md)
 * [Provision S3 Bucket with serverless.yml](serverless/provision-s3-bucket-with-serverless.yml.md)
 * [Serverless Framework Deployment failing after deleting API Gateway on AWS](serverless/serverless-framework-deployment-failing-after-deleting-api-gateway-on-aws.md)
