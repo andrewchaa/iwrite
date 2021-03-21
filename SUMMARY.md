@@ -88,6 +88,10 @@
 
 * [Upload and download file to and from Storage account](azure-storage-account/upload-and-download-file-to-and-from-storage-account.md)
 
+## bash
+
+* [make a file executable in bash](bash/make-a-file-executable-in-bash.md)
+
 ## CSharp
 
 * [Copy all files in directory in C\#](csharp/copy-all-files-in-directory-in-c.md)
