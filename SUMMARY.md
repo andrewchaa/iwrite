@@ -173,6 +173,10 @@
 
 * [Asserting on Collelctions on NUnit](testing/asserting-on-collelctions-on-nunit.md)
 
+## Tools
+
+* [Configuring Resharper's javascript level for ECMAScript 2016](tools/configuring-resharpers-javascript-level-for-ecmascript-2016.md)
+
 ## Drafts
 
 * [Logging in ASP.NET Core APIs and services](drafts/logging-in-asp.net-core-apis-and-services.md)
