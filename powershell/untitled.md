@@ -2,13 +2,16 @@
 
 ### list environment variables
 
-```text
+```csharp
+// list all environment variables
 gci env:* | sort-object name
-```
 
-#### update powershell \(in admin shell\)
+// set environment variable
+$env:CYPRESS_INSTALL_BINARY="C:\Users\andrew.chaa\Downloads\cypress.zip"
 
-```text
+// update powershell. run this in priviledged powershell
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 ```
+
+
 
