@@ -1,6 +1,6 @@
 # Set Powershell Aliases for cross environment development
 
-I use and Mac and Windows laptop for development. I often make mistakes like typing `ll` in powershell prompt instead of `dir`. It's handy to create a few aliases, so that the shell can tolerate my unconscious miakes. 
+I use and Mac and Windows laptop for development. I often make mistakes like typing `ll` in powershell prompt instead of `dir`. It's handy to [create a few aliases](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/set-alias?view=powershell-7.1), so that the shell can tolerate my unconscious miakes. 
 
 You can check where the powershell profile is by doing `$profile`. 
 
