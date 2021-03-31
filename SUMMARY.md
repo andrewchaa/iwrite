@@ -129,6 +129,7 @@
 
 ## Powershell
 
+* [Set Powershell Aliases for cross environment development](powershell/set-powershell-aliases-for-cross-environment-development.md)
 * [Powershell tips](powershell/untitled.md)
 
 ## React
