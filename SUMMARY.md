@@ -5,14 +5,11 @@
 * [Static website hosting in Azure Blob Storage](static-website-hosting-in-azure-blob-storage.md)
 * [How I'm setting my Windows developer machine](how-im-setting-windows-developer-machine.md)
 * [Logging on AWS Lambda with .NET Core](logging-on-aws-lambda-with-.net-core.md)
-* [Fix Port number for Service Fabric ASP.NET Core on the local development machine](fix-port-number-for-service-fabric-asp.net-core-on-the-local-development-machine.md)
-* [Any CPU settings in Visual Studio sln content for Service Fabric service](visual-studio-sln-content-for-service-fabric-service.md)
 * [Calling an API with redux saga](calling-an-api-with-redux-saga.md)
 * [Calling api endpoints with Refit](calling-api-endpoints-with-refit.md)
 * [Logging onto Application Insights from ASP.NET Core api service](logging-onto-application-insights-from-asp.net-core-api-service.md)
 * [Easy way to compare the values of the two complex objects](easy-way-to-compare-the-values-of-the-two-complex-objects.md)
 * [Cosmos Emulator for local development and testing](cosmos-emulator-for-local-development-and-testing.md)
-* [Service Fabric app health check](service-fabric-app-health-check.md)
 * [Component testing in ASP.NET Core](component-testing-in-asp.net-core.md)
 * [Using TimeSpan configuration values in .NET Core](using-timespan-configuration-values-in-.net-core.md)
 * [Handy apps for Mac](basic-tips-in-using-mac.md)
@@ -145,6 +142,9 @@
 
 * [Deploy Service Fabric type when one of its services needs deletion](service-fabric/deploy-service-fabric-type-when-one-of-its-services-needs-deletion.md)
 * [Service Fabric skeleton service](service-fabric/service-fabric-skeleton-service.md)
+* [Fix Port number for Service Fabric ASP.NET Core on the local development machine](service-fabric/fix-port-number-for-service-fabric-asp.net-core-on-the-local-development-machine.md)
+* [Any CPU settings in Visual Studio sln content for Service Fabric service](service-fabric/visual-studio-sln-content-for-service-fabric-service.md)
+* [Service Fabric app health check](service-fabric/service-fabric-app-health-check.md)
 
 ## Serverless
 
