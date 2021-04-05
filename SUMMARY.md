@@ -102,6 +102,10 @@
 
 * [Register all your services to IServiceCollection](dotnet-core/register-all-your-services-to-iservicecollection.md)
 
+## Dynamo Db
+
+* [Scan with multiple filters in Dynamo DB](dynamo-db/scan-with-multiple-filters-in-dynamo-db.md)
+
 ## Github
 
 * [Using Github APIs to pull posts and to convert them to blog posts](github/authenticate-github-api-with-oauth-flow.md)
