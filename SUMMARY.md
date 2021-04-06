@@ -101,6 +101,7 @@
 ## Docker
 
 * [Getting started with Docker](docker/getting-started-with-docker.md)
+* [Docker Compose](docker/docker-compose.md)
 
 ## Dotnet Core
 
