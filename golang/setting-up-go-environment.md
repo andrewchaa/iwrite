@@ -8,6 +8,10 @@ Go programs are organised into packages.
 * Module: a collection of related Go packages. 
 * Repository: contains one or more modules
 
+### Install Go
+
+
+
 Now we have to set up environment variables and add Go paths. To see all environment variables, you can do `printenv`. Otherwise, do `echo $PATH`. 
 
 ```bash
