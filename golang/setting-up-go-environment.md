@@ -10,24 +10,27 @@ Go programs are organised into packages.
 
 ### Install Go
 
-
-
-Now we have to set up environment variables and add Go paths. To see all environment variables, you can do `printenv`. Otherwise, do `echo $PATH`. 
-
 ```bash
-echo $PATH
-
-/Users/andrewchaa/.serverless/bin:
-/Users/andrewchaa/.rbenv/shims:
-/usr/local/bin:/usr/local/sbin:
-/usr/bin:/bin:/usr/sbin:
-/sbin:/usr/local/share/dotnet:
-~/.dotnet/tools:
-/Library/Apple/usr/bin:
-/Library/Frameworks/Mono.framework/Versions/Current/Commands  
+brew update && brew install golang
 ```
 
-Let's add Go paths.
+### Setup Workspace
+
+It’s considered best practice to use `$HOME/go` location for your workspace, so let’s do that!
+
+```text
+mkdir -p $HOME/go/{bin,src,pkg}
+```
+
+### [Setup Environment](https://jimkang.medium.com/install-go-on-mac-with-homebrew-5fa421fc55f5)
+
+We’ll need to add to `.bashrc` or `.zshrc` \(if you’re using zsh\) with the following info. \(Ex: `code ~/.zshrc` \)
+
+```text
+export GOPATH=$HOME/go
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+```
 
 
 
