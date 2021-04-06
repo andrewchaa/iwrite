@@ -50,11 +50,9 @@
 * [Handling files in c\#](handling-files-in-c.md)
 * [git credential manager](git-credential-manager.md)
 * [LED Tube lamp](led-tube-lamp.md)
-* [C\# LINQ in the wild](c-linq-in-the-wild.md)
 * [Setting up my Mac](setting-up-my-macbook-pro.md)
 * [My favourite Libraries and Frameworks](my-favourite-libraries-and-frameworks.md)
 * [Templating with scriban](templating-with-scriban.md)
-* [Using reflection](using-reflection.md)
 
 ## AWS Amplify
 
@@ -89,6 +87,8 @@
 
 ## CSharp
 
+* [Using reflection](csharp/using-reflection.md)
+* [C\# LINQ in the wild](csharp/c-linq-in-the-wild.md)
 * [Copy all files in directory in C\#](csharp/copy-all-files-in-directory-in-c.md)
 * [Deserializing yaml file in C\#](csharp/deserializing-yaml-file-in-c.md)
 * [Uploading a file to S3 using PreSignedUrl with HttpClient](csharp/uploading-a-file-to-s3-using-presignedurl-with-httpclient.md)
@@ -97,6 +97,10 @@
 
 * [Using dapper with sqlite](data/using-dapper-with-in-memory-sqlite.md)
 * [Sql queries I use for SQLite](data/sql-queries-i-use.md)
+
+## Docker
+
+* [Getting started with Docker](docker/getting-started-with-docker.md)
 
 ## Dotnet Core
 

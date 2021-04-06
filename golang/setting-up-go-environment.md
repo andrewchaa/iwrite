@@ -32,5 +32,13 @@ export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 ```
 
+## Setting up VS Code
+
+Install Go extension. Either Microsoft or Google
+
+Then with `shft + cmd + p`, Install / Update Go tools
+
+![](../.gitbook/assets/image%20%2829%29.png)
+
 
 
