@@ -28,3 +28,5 @@ volumes:
   logvolume01: {}
 ```
 
+* `docker-compose up` : build and run the container from the yaml
+
