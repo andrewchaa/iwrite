@@ -4,5 +4,7 @@ By default, it's set to ECMAScript 5 and statements like `import` shows squiggli
 
 Go to Resharper Options &gt; Code Editing &gt; javascript &gt; Inspection
 
+Test
+
 ![](../.gitbook/assets/image%20%2828%29.png)
 
