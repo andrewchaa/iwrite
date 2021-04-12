@@ -184,6 +184,10 @@
 
 * [Using a North Star to guide emergent architecture](system-design/using-a-north-star-to-guide-emergent-architecture.md)
 
+## Terraform
+
+* [Setting up dead letter alert with Terraform](terraform/setting-up-dead-letter-alert-with-terraform.md)
+
 ## Testing
 
 * [Asserting on Collelctions on NUnit](testing/asserting-on-collelctions-on-nunit.md)
