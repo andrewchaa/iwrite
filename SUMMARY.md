@@ -52,7 +52,6 @@
 * [LED Tube lamp](led-tube-lamp.md)
 * [Setting up my Mac](setting-up-my-macbook-pro.md)
 * [My favourite Libraries and Frameworks](my-favourite-libraries-and-frameworks.md)
-* [Templating with scriban](templating-with-scriban.md)
 
 ## AWS Amplify
 
@@ -132,6 +131,10 @@
 ## Jekyll
 
 * [Migrating all my writings to Github pages](jekyll/migrating-all-my-writings-to-github-pages.md)
+
+## Others
+
+* [Templating with scriban](others/templating-with-scriban.md)
 
 ## Powershell
 
