@@ -1,5 +1,7 @@
 # Consuming restful APIs in GoLang
 
+### Set up Docker environment
+
 This is an exercise given to me. A few challenges. First, I don't know much about Go :-\) I'm interested in the language and completed a beginner course on coursera. Yet Go is a simple and practical language, easy to read and not so scary looking. So, I'm giving a try ...
 
 I was given a [docker compose](https://docs.docker.com/compose/) file. I need to launch the docker in order to call the test apis. 
@@ -63,6 +65,27 @@ When I ran the docker image, it had errors saying, "password authentication fail
 ```text
 CREATE USER interview_accountapi_user WITH PASSWORD '***';
 CREATE DATABASE interview_accountapi OWNER interview_accountapi_user;
+```
+
+### Running go 
+
+Simply do `go run ./main.go` in the terminal. Also you can use glob pattern
+
+```bash
+$ go run dir/*.go
+$ go run dir/**/*.go
+$ go run file-a.go file-b.go file-c.go
+```
+
+#### [Breaking a long line of code](https://stackoverflow.com/questions/34846848/how-to-break-a-long-line-of-code-in-golang)
+
+Add a comma even though it's the last element. 
+
+```go
+s := []int {
+    1, 2, 3,
+    4, 5, 6,  // Note it ends with a comma
+}
 ```
 
 
