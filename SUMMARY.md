@@ -124,6 +124,7 @@
 * [Moving blog engine to Hugo](golang/moving-blog-engine-to-hugo.md)
 * [Consuming restful APIs in GoLang](golang/consuming-restful-apis-in-golang.md)
 * [Creating struct type in golang](golang/creating-struct-type-in-golang.md)
+* [Exported names in golang](golang/exported-names-in-golang.md)
 
 ## iOS
 
