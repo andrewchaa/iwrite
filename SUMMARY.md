@@ -126,6 +126,8 @@
 * [Creating struct type in golang](golang/creating-struct-type-in-golang.md)
 * [Exported names in golang](golang/exported-names-in-golang.md)
 * [Generate UUID in golang](golang/generate-uuid-in-golang.md)
+* [Convert JSON to Go struct](golang/convert-json-to-go-struct.md)
+* [Constants in Go](golang/constants-in-go.md)
 
 ## iOS
 
