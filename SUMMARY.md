@@ -125,6 +125,7 @@
 * [Consuming restful APIs in GoLang](golang/consuming-restful-apis-in-golang.md)
 * [Creating struct type in golang](golang/creating-struct-type-in-golang.md)
 * [Exported names in golang](golang/exported-names-in-golang.md)
+* [Generate UUID in golang](golang/generate-uuid-in-golang.md)
 
 ## iOS
 
